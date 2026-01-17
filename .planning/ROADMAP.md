@@ -36,11 +36,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. PostgreSQL database is provisioned and accessible from backend
   4. Site is deployed on Fly.io and accessible via public URL
   5. CI/CD pipeline deploys on push to main branch
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [x] 01-01: Project scaffolding and local development environment ✓
-- [x] 01-02: Fly.io deployment and CI/CD pipeline ✓
+- [x] 01-01-PLAN.md — Project scaffolding and local development environment ✓
+- [x] 01-02-PLAN.md — Fly.io deployment and CI/CD pipeline ✓
 
 **Completed:** 2026-01-17
 **Production URL:** https://honey-explorer.fly.dev
@@ -58,11 +58,11 @@ Plans:
   3. Local source entity with location, hours, contact, verification metadata exists
   4. API endpoints return empty but properly structured faceted filter options
   5. Database migrations run successfully via Flyway
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: Define honey taxonomy and controlled vocabularies
-- [ ] 02-02: Database schema and Spring Data JPA entities
+- [ ] 02-01-PLAN.md — Taxonomy enums and JPA entities (Honey, LocalSource)
+- [ ] 02-02-PLAN.md — Repositories and filter options API endpoint
 
 ---
 
@@ -283,8 +283,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Infrastructure Foundation | 0/2 | Not started | - |
-| 2. Data Foundation | 0/2 | Not started | - |
+| 1. Infrastructure Foundation | 2/2 | Complete | 2026-01-17 |
+| 2. Data Foundation | 0/2 | Ready | - |
 | 3. Data Seeding | 0/3 | Not started | - |
 | 4. Visual Design System | 0/2 | Not started | - |
 | 5. Core Discovery | 0/4 | Not started | - |
