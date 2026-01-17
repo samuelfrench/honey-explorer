@@ -135,69 +135,69 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DATA-01 | TBD | Pending |
-| DATA-02 | TBD | Pending |
-| DATA-03 | TBD | Pending |
-| DATA-04 | TBD | Pending |
-| DATA-05 | TBD | Pending |
-| DATA-06 | TBD | Pending |
-| UX-01 | TBD | Pending |
-| UX-02 | TBD | Pending |
-| UX-03 | TBD | Pending |
-| UX-04 | TBD | Pending |
-| UX-05 | TBD | Pending |
-| UX-06 | TBD | Pending |
-| UX-07 | TBD | Pending |
-| UX-08 | TBD | Pending |
-| DISC-01 | TBD | Pending |
-| DISC-02 | TBD | Pending |
-| DISC-03 | TBD | Pending |
-| DISC-04 | TBD | Pending |
-| DISC-05 | TBD | Pending |
-| UX-DISC-06 | TBD | Pending |
-| DISC-07 | TBD | Pending |
-| DISC-08 | TBD | Pending |
-| DISC-09 | TBD | Pending |
-| DISC-10 | TBD | Pending |
-| DISC-11 | TBD | Pending |
-| DISC-12 | TBD | Pending |
-| LOCAL-01 | TBD | Pending |
-| LOCAL-02 | TBD | Pending |
-| LOCAL-03 | TBD | Pending |
-| LOCAL-04 | TBD | Pending |
-| LOCAL-05 | TBD | Pending |
-| LOCAL-06 | TBD | Pending |
-| LOCAL-07 | TBD | Pending |
-| AI-01 | TBD | Pending |
-| AI-02 | TBD | Pending |
-| AI-03 | TBD | Pending |
-| AI-04 | TBD | Pending |
-| CONT-01 | TBD | Pending |
-| CONT-02 | TBD | Pending |
-| CONT-03 | TBD | Pending |
-| CONT-04 | TBD | Pending |
-| CONT-05 | TBD | Pending |
-| COMM-01 | TBD | Pending |
-| COMM-02 | TBD | Pending |
-| COMM-03 | TBD | Pending |
-| COMM-04 | TBD | Pending |
-| AUTO-01 | TBD | Pending |
-| AUTO-02 | TBD | Pending |
-| AUTO-03 | TBD | Pending |
-| AUTO-04 | TBD | Pending |
-| AUTO-05 | TBD | Pending |
-| AUTO-06 | TBD | Pending |
-| INFRA-01 | TBD | Pending |
-| INFRA-02 | TBD | Pending |
-| INFRA-03 | TBD | Pending |
-| INFRA-04 | TBD | Pending |
-| INFRA-05 | TBD | Pending |
+| DATA-01 | Phase 2 | Pending |
+| DATA-02 | Phase 3 | Pending |
+| DATA-03 | Phase 3 | Pending |
+| DATA-04 | Phase 2 | Pending |
+| DATA-05 | Phase 2 | Pending |
+| DATA-06 | Phase 3 | Pending |
+| UX-01 | Phase 5 | Pending |
+| UX-02 | Phase 5 | Pending |
+| UX-03 | Phase 4 | Pending |
+| UX-04 | Phase 5 | Pending |
+| UX-05 | Phase 4 | Pending |
+| UX-06 | Phase 4 | Pending |
+| UX-07 | Phase 4 | Pending |
+| UX-08 | Phase 4 | Pending |
+| DISC-01 | Phase 5 | Pending |
+| DISC-02 | Phase 5 | Pending |
+| DISC-03 | Phase 5 | Pending |
+| DISC-04 | Phase 5 | Pending |
+| DISC-05 | Phase 5 | Pending |
+| UX-DISC-06 | Phase 5 | Pending |
+| DISC-07 | Phase 5 | Pending |
+| DISC-08 | Phase 5 | Pending |
+| DISC-09 | Phase 5 | Pending |
+| DISC-10 | Phase 5 | Pending |
+| DISC-11 | Phase 5 | Pending |
+| DISC-12 | Phase 5 | Pending |
+| LOCAL-01 | Phase 6 | Pending |
+| LOCAL-02 | Phase 6 | Pending |
+| LOCAL-03 | Phase 6 | Pending |
+| LOCAL-04 | Phase 6 | Pending |
+| LOCAL-05 | Phase 6 | Pending |
+| LOCAL-06 | Phase 6 | Pending |
+| LOCAL-07 | Phase 6 | Pending |
+| AI-01 | Phase 7 | Pending |
+| AI-02 | Phase 7 | Pending |
+| AI-03 | Phase 7 | Pending |
+| AI-04 | Phase 7 | Pending |
+| CONT-01 | Phase 8 | Pending |
+| CONT-02 | Phase 8 | Pending |
+| CONT-03 | Phase 8 | Pending |
+| CONT-04 | Phase 8 | Pending |
+| CONT-05 | Phase 8 | Pending |
+| COMM-01 | Phase 9 | Pending |
+| COMM-02 | Phase 9 | Pending |
+| COMM-03 | Phase 9 | Pending |
+| COMM-04 | Phase 9 | Pending |
+| AUTO-01 | Phase 10 | Pending |
+| AUTO-02 | Phase 10 | Pending |
+| AUTO-03 | Phase 10 | Pending |
+| AUTO-04 | Phase 10 | Pending |
+| AUTO-05 | Phase 10 | Pending |
+| AUTO-06 | Phase 10 | Pending |
+| INFRA-01 | Phase 1 | Pending |
+| INFRA-02 | Phase 5 | Pending |
+| INFRA-03 | Phase 1 | Pending |
+| INFRA-04 | Phase 1 | Pending |
+| INFRA-05 | Phase 10 | Pending |
 
 **Coverage:**
-- v1 requirements: 54 total (45 functional + 9 visual/UX)
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 54
+- v1 requirements: 54 total
+- Mapped to phases: 54/54 (100%)
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-01-17*
-*Last updated: 2026-01-17 — revised to prioritize visual appeal, large imagery, engaging UX*
+*Last updated: 2026-01-17 - Traceability updated with phase assignments*

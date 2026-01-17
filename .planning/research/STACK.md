@@ -67,8 +67,9 @@ Honey Explorer should follow the proven cigar-explorer architecture with targete
 | **Groq API** | - | Fast inference for recommendations | HIGH | 10x faster than OpenAI/Claude. Already used in cigar-explorer. Great for user-facing AI ("describe what you like"). |
 | **Claude API** (Anthropic) | Sonnet 3.5/4 | Content generation, complex reasoning | MEDIUM | Higher quality for long-form articles. Use when speed less critical. |
 | **OpenAI API** | GPT-4o | Alternative/fallback | MEDIUM | Function calling support, fine-tuning options. Consider for structured extraction. |
+| **Replicate API** | - | High-quality image generation | HIGH | Generate hero images, product photography, placeholder images for honeys without photos. FLUX or SDXL models for photorealistic results. |
 
-**Recommendation:** Use Groq as primary for real-time recommendations (fast, cheap). Use Claude/OpenAI for batch content generation jobs (quality > speed). Multi-provider strategy protects against outages and rate limits.
+**Recommendation:** Use Groq as primary for real-time recommendations (fast, cheap). Use Claude/OpenAI for batch content generation jobs (quality > speed). Use Replicate for generating high-quality product images where stock photos are unavailable. Multi-provider strategy protects against outages and rate limits.
 
 **Pricing notes (as of late 2025):**
 - Groq: Significantly cheaper than competitors for inference
@@ -202,9 +203,10 @@ npm install -D vitest @vitest/ui @testing-library/react @testing-library/jest-do
 | Geoapify | 3000 requests/day | $0 (likely sufficient) |
 | Groq | Limited free tier | $0-10 (depends on usage) |
 | Claude API | None | $10-50 (for content generation) |
+| Replicate | None | $5-20 (image generation ~$0.003/image for FLUX) |
 | GitHub Actions | 2000 min/month | $0 |
 
-**Total estimated:** $20-70/month for production with moderate traffic.
+**Total estimated:** $25-90/month for production with moderate traffic.
 
 ---
 

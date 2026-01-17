@@ -65,7 +65,8 @@ Users can discover and learn about honey varieties from around the world and fin
 
 - **Tech stack**: Similar to cigar-explorer (React frontend, Java/Spring backend) unless research suggests better alternatives
 - **Hosting**: Fly.io for deployment consistency
-- **AI**: OpenAI API for recommendations and content generation
+- **AI Text**: Groq API for fast recommendations, Claude/OpenAI for content generation
+- **AI Images**: Replicate API (FLUX/SDXL) for high-quality product photography and hero images
 - **Budget**: Minimize ongoing costs — prefer scraping over paid APIs where legal/ethical
 
 ## Key Decisions
