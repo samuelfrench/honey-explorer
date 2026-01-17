@@ -187,10 +187,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | AUTO-04 | Phase 10 | Pending |
 | AUTO-05 | Phase 10 | Pending |
 | AUTO-06 | Phase 10 | Pending |
-| INFRA-01 | Phase 1 | Pending |
+| INFRA-01 | Phase 1 | Complete |
 | INFRA-02 | Phase 5 | Pending |
-| INFRA-03 | Phase 1 | Pending |
-| INFRA-04 | Phase 1 | Pending |
+| INFRA-03 | Phase 1 | Complete |
+| INFRA-04 | Phase 1 | Complete |
 | INFRA-05 | Phase 10 | Pending |
 
 **Coverage:**
