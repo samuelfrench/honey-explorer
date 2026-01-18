@@ -80,12 +80,12 @@ Plans:
   3. Database contains 50+ local sources (beekeepers, farms, markets) with photos
   4. Hero images generated via Replicate for each major honey type and origin region
   5. All seeded data includes "last verified" timestamp
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 03-01: Honey data curation and import pipeline
-- [ ] 03-02: Local source data curation and import pipeline
-- [ ] 03-03: Replicate image generation and CDN setup
+- [ ] 03-01-PLAN.md — Cloudflare R2 setup and Java integration
+- [ ] 03-02-PLAN.md — Data curation and seeder infrastructure (200+ honeys, 50+ sources)
+- [ ] 03-03-PLAN.md — Replicate image generation and CDN finalization
 
 ---
 
