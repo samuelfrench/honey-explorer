@@ -1,0 +1,13 @@
+{
+  "name": "honey-explorer-image-gen",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-images.js"
+  },
+  "dependencies": {
+    "replicate": "^0.25.0",
+    "@aws-sdk/client-s3": "^3.500.0",
+    "dotenv": "^16.3.0"
+  }
+}
