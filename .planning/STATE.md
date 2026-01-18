@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-01-17)
 
 **Core value:** Users can discover honey varieties and find local sources
-**Current focus:** Phase 3 - Data Seeding (plan 1 of 4 complete)
+**Current focus:** Phase 3 - Data Seeding (plan 2 of 4 complete)
 
 ## Current Position
 
 Phase: 3 of 10 (Data Seeding)
-Plan: 1 of 4 in current phase
+Plan: 2 of 4 in current phase
 Status: In progress
-Last activity: 2026-01-18 - Completed 03-01-PLAN.md
+Last activity: 2026-01-18 - Completed 03-02-PLAN.md
 
 Progress: [=====-----] 50%
 
@@ -28,16 +28,16 @@ Progress: [=====-----] 50%
 
 ### Phase 3 Progress
 - Plan 1: R2 Storage Integration (complete)
-- Plan 2: Image Generation Service (pending)
-- Plan 3: Honey Data Seeding (pending)
-- Plan 4: Local Source Data (pending)
+- Plan 2: Honey & Local Source Seed Data (complete)
+- Plan 3: (pending)
+- Plan 4: (pending)
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 5
-- Average duration: 6 min
-- Total execution time: 29 min
+- Total plans completed: 6
+- Average duration: 7 min
+- Total execution time: 41 min
 
 **By Phase:**
 
@@ -45,11 +45,11 @@ Progress: [=====-----] 50%
 |-------|-------|-------|----------|
 | 01-infrastructure | 2 | 20 min | 10 min |
 | 02-data-foundation | 2 | 6 min | 3 min |
-| 03-data-seeding | 1 | 3 min | 3 min |
+| 03-data-seeding | 2 | 15 min | 7.5 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-02 (14 min), 02-01 (2 min), 02-02 (4 min), 03-01 (3 min)
-- Trend: Fast on infrastructure/data layer tasks
+- Last 5 plans: 02-01 (2 min), 02-02 (4 min), 03-01 (3 min), 03-02 (12 min)
+- Trend: Data curation takes longer than infrastructure
 
 *Updated after each plan completion*
 
@@ -79,21 +79,26 @@ Recent decisions affecting current work:
 - [03-01]: AWS SDK v2 for R2 (S3-compatible API, handles auth/retries/multipart)
 - [03-01]: ConditionalOnProperty pattern for optional R2 (disabled by default in dev)
 - [03-01]: pathStyleAccessEnabled and chunkedEncodingEnabled for R2 compatibility
+- [03-02]: Java records for seed DTOs for immutable data transfer
+- [03-02]: Idempotent seeding - skips if database already has data
+- [03-02]: Conditional seeding via seed.data.enabled property (default false)
+- [03-02]: Placeholder image URLs following CDN pattern
 
 ### Pending Todos
 
 - Configure Fly.io secrets for R2 before image upload functionality works in production
+- Set SEED_DATA_ENABLED=true for initial production seeding, then disable
 
 ### Blockers/Concerns
 
-- Cold start is critical risk - Phase 3 data seeding must be thorough
 - AI content needs human-in-the-loop to avoid Google penalties
 - Local source data decays - verification metadata now built into schema
 - R2 bucket and API tokens need to be created in Cloudflare dashboard
+- Image URLs are placeholders - will need actual images uploaded to CDN
 
 ## Session Continuity
 
-Last session: 2026-01-18T19:38:07Z
-Stopped at: Completed 03-01-PLAN.md (R2 Storage Integration)
+Last session: 2026-01-18T19:47:26Z
+Stopped at: Completed 03-02-PLAN.md (Honey & Local Source Seed Data)
 Resume file: None
-Next: Execute 03-02-PLAN.md (Image Generation Service)
+Next: Execute remaining Phase 3 plans
