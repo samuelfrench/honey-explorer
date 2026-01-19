@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: Data Foundation** - Taxonomy definition, data models, verification metadata ✓
 - [x] **Phase 3: Data Seeding** - 200+ honeys with images, 50+ local sources with photos ✓
 - [x] **Phase 4: Visual Design System** - Honey color palette, component library, animations ✓
-- [ ] **Phase 5: Core Discovery** - Browse, filter, search, detail pages with visual-first layout
+- [x] **Phase 5: Core Discovery** - Browse, filter, search, detail pages with visual-first layout ✓
 - [ ] **Phase 6: Local Finder** - Map with markers, producer profiles, events carousel on homepage
 - [ ] **Phase 7: AI Recommendations** - Conversational input, visual quiz, shareable profile cards
 - [ ] **Phase 8: Content Platform** - Visual-first articles, infographic health info, newsletter
@@ -121,23 +121,26 @@ Plans:
 **Requirements**: UX-01, UX-02, UX-04, DISC-01, DISC-02, DISC-03, DISC-04, DISC-05, UX-DISC-06, DISC-07, DISC-08, DISC-09, DISC-10, DISC-11, DISC-12, INFRA-02
 **Complexity**: L
 **Success Criteria** (what must be TRUE):
-  1. Homepage displays large rotating hero image with featured honeys
-  2. User can search honeys by name, brand, or keyword with instant results
-  3. User can filter by origin, floral source, type, and flavor profile
-  4. Browse view shows large product imagery (not tiny thumbnails)
-  5. Honey detail page leads with full-width hero image and concise info cards
-  6. Certification badges (UMF/MGO) display with tap-to-learn tooltips
-  7. User can compare two honeys side-by-side in visual comparison layout
-  8. Pairing suggestions shown as visual icons (cheese, tea, toast)
-  9. Mobile displays swipeable cards; desktop shows image-forward grid
-  10. SEO meta tags and schema.org markup present on all discovery pages
-**Plans**: TBD
+  1. Homepage displays large rotating hero image with featured honeys ✓
+  2. User can search honeys by name, brand, or keyword with instant results ✓
+  3. User can filter by origin, floral source, type, and flavor profile ✓
+  4. Browse view shows large product imagery (not tiny thumbnails) ✓
+  5. Honey detail page leads with full-width hero image and concise info cards ✓
+  6. Certification badges (UMF/MGO) display with tap-to-learn tooltips ✓
+  7. User can compare two honeys side-by-side in visual comparison layout (Deferred to Phase 7)
+  8. Pairing suggestions shown as visual icons (cheese, tea, toast) (Deferred to Phase 7)
+  9. Mobile displays swipeable cards; desktop shows image-forward grid ✓
+  10. SEO meta tags and schema.org markup present on all discovery pages ✓
+**Plans**: 4 plans
 
 Plans:
-- [ ] 05-01: Homepage with hero and featured honeys
-- [ ] 05-02: Browse/filter interface with faceted search
-- [ ] 05-03: Honey detail page and comparison feature
-- [ ] 05-04: SEO and static site generation setup
+- [x] 05-01: Homepage with hero and featured honeys ✓
+- [x] 05-02: Browse/filter interface with faceted search ✓
+- [x] 05-03: Honey detail page with image-first layout ✓
+- [x] 05-04: SEO meta tags and robots.txt ✓
+
+**Completed:** 2026-01-18
+**Notes:** Comparison and pairing features deferred to Phase 7 (AI Recommendations) for better integration
 
 ---
 
@@ -296,8 +299,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 | 2. Data Foundation | 2/2 | Complete | 2026-01-17 |
 | 3. Data Seeding | 3/3 | Complete | 2026-01-18 |
 | 4. Visual Design System | 2/2 | Complete | 2026-01-18 |
-| 5. Core Discovery | 0/4 | Ready | - |
-| 6. Local Finder | 0/3 | Not started | - |
+| 5. Core Discovery | 4/4 | Complete | 2026-01-18 |
+| 6. Local Finder | 0/3 | Ready | - |
 | 7. AI Recommendations | 0/2 | Not started | - |
 | 8. Content Platform | 0/3 | Not started | - |
 | 9. Community Features | 0/2 | Not started | - |

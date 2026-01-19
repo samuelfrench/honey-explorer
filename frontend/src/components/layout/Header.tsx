@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Droplet, Search, MapPin } from 'lucide-react';
+import { Droplet, Search, MapPin, Calendar } from 'lucide-react';
 import { Container } from './Container';
 
 export function Header() {
@@ -29,6 +29,13 @@ export function Header() {
             >
               <MapPin className="w-4 h-4" />
               Find Local
+            </Link>
+            <Link
+              to="/events"
+              className="text-comb-600 hover:text-honey-600 transition-colors font-medium flex items-center gap-1"
+            >
+              <Calendar className="w-4 h-4" />
+              Events
             </Link>
           </nav>
 

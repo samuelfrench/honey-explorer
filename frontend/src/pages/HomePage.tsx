@@ -4,6 +4,7 @@ import { Droplet, MapPin, ArrowRight } from 'lucide-react';
 import { Container, Section } from '../components/layout';
 import { Button, SkeletonCard } from '../components/ui';
 import { HoneyCard } from '../components/honey';
+import { EventsCarousel } from '../components/events';
 import { SEO } from '../components/seo';
 import { honeyApi, type Honey } from '../services/api';
 
@@ -114,21 +115,28 @@ export function HomePage() {
         </Container>
       </Section>
 
+      {/* Events Carousel Section */}
+      <Section padding="lg" background="white">
+        <Container>
+          <EventsCarousel />
+        </Container>
+      </Section>
+
       {/* Stats Section */}
-      <Section padding="md" background="white">
+      <Section padding="md" background="honey">
         <Container>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
-              <p className="font-display text-4xl font-bold text-honey-600 mb-2">200+</p>
-              <p className="text-comb-600">Honey Varieties</p>
+              <p className="font-display text-4xl font-bold text-honey-800 mb-2">200+</p>
+              <p className="text-honey-700">Honey Varieties</p>
             </div>
             <div>
-              <p className="font-display text-4xl font-bold text-honey-600 mb-2">50+</p>
-              <p className="text-comb-600">Local Sources</p>
+              <p className="font-display text-4xl font-bold text-honey-800 mb-2">50+</p>
+              <p className="text-honey-700">Local Sources</p>
             </div>
             <div>
-              <p className="font-display text-4xl font-bold text-honey-600 mb-2">30+</p>
-              <p className="text-comb-600">Countries</p>
+              <p className="font-display text-4xl font-bold text-honey-800 mb-2">30+</p>
+              <p className="text-honey-700">Countries</p>
             </div>
           </div>
         </Container>

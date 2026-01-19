@@ -86,4 +86,10 @@ public class LocalSource extends BaseAuditEntity {
      */
     @Column
     private Boolean isActive = true;
+
+    /**
+     * URL-friendly slug for SEO-friendly URLs.
+     */
+    @Column(unique = true)
+    private String slug;
 }

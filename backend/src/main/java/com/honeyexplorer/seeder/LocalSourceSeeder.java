@@ -91,6 +91,9 @@ public class LocalSourceSeeder {
         source.setInstagramHandle(dto.instagramHandle());
         source.setFacebookUrl(dto.facebookUrl());
 
+        // Generate slug from name
+        source.setSlug(generateSlug(dto.name()));
+
         // Verification metadata
         source.setLastVerifiedAt(verifiedAt);
         source.setVerificationSource("initial_seed");
@@ -98,5 +101,18 @@ public class LocalSourceSeeder {
         source.setIsActive(true);
 
         return source;
+    }
+
+    /**
+     * Generate a URL-friendly slug from a name.
+     * Example: "Sweet Valley Apiaries" -> "sweet-valley-apiaries"
+     */
+    private String generateSlug(String name) {
+        if (name == null) return null;
+        return name.toLowerCase()
+                .replaceAll("[^a-z0-9\\s-]", "")  // Remove special characters
+                .replaceAll("\\s+", "-")           // Replace spaces with hyphens
+                .replaceAll("-+", "-")             // Replace multiple hyphens with single
+                .replaceAll("^-|-$", "");          // Remove leading/trailing hyphens
     }
 }

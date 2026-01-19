@@ -22,10 +22,12 @@ public class DataSeeder implements CommandLineRunner {
 
     private final HoneySeeder honeySeeder;
     private final LocalSourceSeeder localSourceSeeder;
+    private final EventSeeder eventSeeder;
 
-    public DataSeeder(HoneySeeder honeySeeder, LocalSourceSeeder localSourceSeeder) {
+    public DataSeeder(HoneySeeder honeySeeder, LocalSourceSeeder localSourceSeeder, EventSeeder eventSeeder) {
         this.honeySeeder = honeySeeder;
         this.localSourceSeeder = localSourceSeeder;
+        this.eventSeeder = eventSeeder;
     }
 
     @Override
@@ -39,7 +41,8 @@ public class DataSeeder implements CommandLineRunner {
 
         int honeysSeeded = honeySeeder.seedHoneys();
         int sourcesSeeded = localSourceSeeder.seedLocalSources();
+        int eventsSeeded = eventSeeder.seedEvents();
 
-        log.info("Database seeding complete: {} honeys, {} local sources", honeysSeeded, sourcesSeeded);
+        log.info("Database seeding complete: {} honeys, {} local sources, {} events", honeysSeeded, sourcesSeeded, eventsSeeded);
     }
 }
