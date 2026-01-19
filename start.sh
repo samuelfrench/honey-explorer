@@ -40,6 +40,7 @@ java -Xmx512m \
      -XX:+UseContainerSupport \
      -XX:MaxRAMPercentage=75.0 \
      -Dspring.profiles.active=prod \
+     -Dseed.data.enabled=true \
      -jar /app/app.jar &
 
 JAVA_PID=$!

@@ -5,6 +5,7 @@ import com.honeyexplorer.entity.enums.FloralSource;
 import com.honeyexplorer.entity.enums.HoneyOrigin;
 import com.honeyexplorer.entity.enums.HoneyType;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -16,7 +17,7 @@ import java.util.UUID;
  * Provides data access and query methods for honey variety discovery.
  */
 @Repository
-public interface HoneyRepository extends JpaRepository<Honey, UUID> {
+public interface HoneyRepository extends JpaRepository<Honey, UUID>, JpaSpecificationExecutor<Honey> {
 
     /**
      * Find honey by SEO-friendly slug.
@@ -37,4 +38,9 @@ public interface HoneyRepository extends JpaRepository<Honey, UUID> {
      * Find all honeys by type for faceted filtering.
      */
     List<Honey> findByType(HoneyType type);
+
+    /**
+     * Find all featured honeys for homepage display.
+     */
+    List<Honey> findByFeaturedTrue();
 }

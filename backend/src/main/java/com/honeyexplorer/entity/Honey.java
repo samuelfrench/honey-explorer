@@ -94,4 +94,10 @@ public class Honey extends BaseAuditEntity {
      */
     @Column(length = 200)
     private String slug;
+
+    /**
+     * Whether this honey is featured on the homepage.
+     */
+    @Column(nullable = false)
+    private boolean featured = false;
 }

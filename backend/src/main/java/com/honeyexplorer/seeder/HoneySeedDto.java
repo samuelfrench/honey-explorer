@@ -21,5 +21,13 @@ public record HoneySeedDto(
     String certifications,
     Integer umfRating,
     Integer mgoRating,
-    String slug
-) {}
+    String slug,
+    Boolean featured
+) {
+    /**
+     * Returns featured status, defaulting to false if null.
+     */
+    public boolean isFeatured() {
+        return featured != null && featured;
+    }
+}

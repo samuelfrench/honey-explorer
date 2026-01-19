@@ -15,7 +15,8 @@
     "certifications": "NON_GMO",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "pure-clover-honey-usa"
+    "slug": "pure-clover-honey-usa",
+    "featured": true
   },
   {
     "name": "Organic White Clover Honey",
@@ -33,7 +34,8 @@
     "certifications": "USDA_ORGANIC,NON_GMO",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-white-clover-honey"
+    "slug": "organic-white-clover-honey",
+    "featured": false
   },
   {
     "name": "Canadian Clover Honey",
@@ -51,7 +53,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "canadian-clover-honey"
+    "slug": "canadian-clover-honey",
+    "featured": false
   },
   {
     "name": "Creamed Clover Honey",
@@ -69,7 +72,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "creamed-clover-honey"
+    "slug": "creamed-clover-honey",
+    "featured": false
   },
   {
     "name": "New Zealand Clover Honey",
@@ -87,7 +91,8 @@
     "certifications": "TRUE_SOURCE",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "new-zealand-clover-honey"
+    "slug": "new-zealand-clover-honey",
+    "featured": false
   },
   {
     "name": "Sweet Clover Honey",
@@ -105,7 +110,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "sweet-clover-honey"
+    "slug": "sweet-clover-honey",
+    "featured": false
   },
   {
     "name": "Red Clover Honey",
@@ -123,7 +129,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "red-clover-honey"
+    "slug": "red-clover-honey",
+    "featured": false
   },
   {
     "name": "Prairie Clover Honey",
@@ -141,7 +148,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "prairie-clover-honey"
+    "slug": "prairie-clover-honey",
+    "featured": false
   },
   {
     "name": "Clover Honey Comb",
@@ -159,7 +167,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "clover-honey-comb"
+    "slug": "clover-honey-comb",
+    "featured": false
   },
   {
     "name": "Manitoba Clover Honey",
@@ -177,7 +186,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "manitoba-clover-honey"
+    "slug": "manitoba-clover-honey",
+    "featured": false
   },
   {
     "name": "Artisan Clover Honey",
@@ -195,7 +205,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "artisan-clover-honey"
+    "slug": "artisan-clover-honey",
+    "featured": false
   },
   {
     "name": "Golden Clover Honey",
@@ -213,7 +224,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "golden-clover-honey"
+    "slug": "golden-clover-honey",
+    "featured": false
   },
   {
     "name": "Alsike Clover Honey",
@@ -231,7 +243,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "alsike-clover-honey"
+    "slug": "alsike-clover-honey",
+    "featured": false
   },
   {
     "name": "Farm Fresh Clover Honey",
@@ -249,7 +262,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "farm-fresh-clover-honey"
+    "slug": "farm-fresh-clover-honey",
+    "featured": false
   },
   {
     "name": "Organic Clover Honey - Canada",
@@ -267,7 +281,8 @@
     "certifications": "USDA_ORGANIC,NON_GMO",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-clover-honey-canada"
+    "slug": "organic-clover-honey-canada",
+    "featured": false
   },
   {
     "name": "Clover Blossom Honey",
@@ -285,7 +300,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "clover-blossom-honey"
+    "slug": "clover-blossom-honey",
+    "featured": false
   },
   {
     "name": "Dutch Clover Honey",
@@ -303,7 +319,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "dutch-clover-honey"
+    "slug": "dutch-clover-honey",
+    "featured": false
   },
   {
     "name": "Infused Clover Honey with Vanilla",
@@ -321,7 +338,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "infused-clover-honey-vanilla"
+    "slug": "infused-clover-honey-vanilla",
+    "featured": false
   },
   {
     "name": "Crimson Clover Honey",
@@ -339,7 +357,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "crimson-clover-honey"
+    "slug": "crimson-clover-honey",
+    "featured": false
   },
   {
     "name": "Pasteurized Clover Honey",
@@ -357,7 +376,8 @@
     "certifications": "TRUE_SOURCE",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "pasteurized-clover-honey"
+    "slug": "pasteurized-clover-honey",
+    "featured": false
   },
   {
     "name": "Mountain Wildflower Honey - California",
@@ -375,7 +395,8 @@
     "certifications": "NON_GMO",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "mountain-wildflower-honey-california"
+    "slug": "mountain-wildflower-honey-california",
+    "featured": false
   },
   {
     "name": "Texas Wildflower Honey",
@@ -393,7 +414,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "texas-wildflower-honey"
+    "slug": "texas-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Georgia Wildflower Honey",
@@ -411,7 +433,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "georgia-wildflower-honey"
+    "slug": "georgia-wildflower-honey",
+    "featured": false
   },
   {
     "name": "New York Wildflower Honey",
@@ -429,7 +452,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "new-york-wildflower-honey"
+    "slug": "new-york-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Florida Wildflower Honey",
@@ -447,7 +471,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "florida-wildflower-honey"
+    "slug": "florida-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Pacific Northwest Wildflower Honey",
@@ -465,7 +490,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "pacific-northwest-wildflower-honey"
+    "slug": "pacific-northwest-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Australian Wildflower Honey",
@@ -483,7 +509,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "australian-wildflower-honey"
+    "slug": "australian-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Mexican Wildflower Honey",
@@ -501,7 +528,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "mexican-wildflower-honey"
+    "slug": "mexican-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Spanish Wildflower Honey",
@@ -519,7 +547,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "spanish-wildflower-honey"
+    "slug": "spanish-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Appalachian Wildflower Honey",
@@ -537,7 +566,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "appalachian-wildflower-honey"
+    "slug": "appalachian-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Creamed Wildflower Honey",
@@ -555,7 +585,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "creamed-wildflower-honey"
+    "slug": "creamed-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Greek Wildflower Honey",
@@ -573,7 +604,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "greek-wildflower-honey"
+    "slug": "greek-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Italian Wildflower Honey",
@@ -591,7 +623,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "italian-wildflower-honey"
+    "slug": "italian-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Argentine Wildflower Honey",
@@ -609,7 +642,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "argentine-wildflower-honey"
+    "slug": "argentine-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Hawaiian Wildflower Honey",
@@ -627,7 +661,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "hawaiian-wildflower-honey"
+    "slug": "hawaiian-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Colorado Wildflower Honey",
@@ -645,7 +680,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "colorado-wildflower-honey"
+    "slug": "colorado-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Desert Wildflower Honey - Arizona",
@@ -663,7 +699,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "desert-wildflower-honey-arizona"
+    "slug": "desert-wildflower-honey-arizona",
+    "featured": false
   },
   {
     "name": "Wisconsin Wildflower Honey",
@@ -681,7 +718,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "wisconsin-wildflower-honey"
+    "slug": "wisconsin-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Hungarian Wildflower Honey",
@@ -699,7 +737,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "hungarian-wildflower-honey"
+    "slug": "hungarian-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Brazilian Wildflower Honey",
@@ -717,7 +756,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "brazilian-wildflower-honey"
+    "slug": "brazilian-wildflower-honey",
+    "featured": false
   },
   {
     "name": "French Wildflower Honey",
@@ -735,7 +775,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "french-wildflower-honey"
+    "slug": "french-wildflower-honey",
+    "featured": false
   },
   {
     "name": "Turkish Wildflower Honey",
@@ -753,7 +794,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "turkish-wildflower-honey"
+    "slug": "turkish-wildflower-honey",
+    "featured": false
   },
   {
     "name": "New Zealand Manuka UMF 5+",
@@ -771,7 +813,8 @@
     "certifications": "UMF_5_PLUS",
     "umfRating": 5,
     "mgoRating": 83,
-    "slug": "new-zealand-manuka-umf-5"
+    "slug": "new-zealand-manuka-umf-5",
+    "featured": false
   },
   {
     "name": "New Zealand Manuka UMF 10+",
@@ -789,7 +832,8 @@
     "certifications": "UMF_10_PLUS",
     "umfRating": 10,
     "mgoRating": 263,
-    "slug": "new-zealand-manuka-umf-10"
+    "slug": "new-zealand-manuka-umf-10",
+    "featured": false
   },
   {
     "name": "New Zealand Manuka UMF 15+",
@@ -807,7 +851,8 @@
     "certifications": "UMF_15_PLUS",
     "umfRating": 15,
     "mgoRating": 514,
-    "slug": "new-zealand-manuka-umf-15"
+    "slug": "new-zealand-manuka-umf-15",
+    "featured": true
   },
   {
     "name": "New Zealand Manuka UMF 20+",
@@ -825,7 +870,8 @@
     "certifications": "UMF_20_PLUS",
     "umfRating": 20,
     "mgoRating": 829,
-    "slug": "new-zealand-manuka-umf-20"
+    "slug": "new-zealand-manuka-umf-20",
+    "featured": false
   },
   {
     "name": "New Zealand Manuka UMF 25+",
@@ -843,7 +889,8 @@
     "certifications": "UMF_25_PLUS",
     "umfRating": 25,
     "mgoRating": 1200,
-    "slug": "new-zealand-manuka-umf-25"
+    "slug": "new-zealand-manuka-umf-25",
+    "featured": false
   },
   {
     "name": "Manuka MGO 100+",
@@ -861,7 +908,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": 100,
-    "slug": "manuka-mgo-100"
+    "slug": "manuka-mgo-100",
+    "featured": false
   },
   {
     "name": "Manuka MGO 250+",
@@ -879,7 +927,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": 250,
-    "slug": "manuka-mgo-250"
+    "slug": "manuka-mgo-250",
+    "featured": false
   },
   {
     "name": "Manuka MGO 400+",
@@ -897,7 +946,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": 400,
-    "slug": "manuka-mgo-400"
+    "slug": "manuka-mgo-400",
+    "featured": false
   },
   {
     "name": "Manuka MGO 550+",
@@ -915,7 +965,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": 550,
-    "slug": "manuka-mgo-550"
+    "slug": "manuka-mgo-550",
+    "featured": false
   },
   {
     "name": "Manuka MGO 850+",
@@ -933,7 +984,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": 850,
-    "slug": "manuka-mgo-850"
+    "slug": "manuka-mgo-850",
+    "featured": false
   },
   {
     "name": "Organic Manuka Honey UMF 10+",
@@ -951,7 +1003,8 @@
     "certifications": "UMF_10_PLUS,USDA_ORGANIC",
     "umfRating": 10,
     "mgoRating": 263,
-    "slug": "organic-manuka-umf-10"
+    "slug": "organic-manuka-umf-10",
+    "featured": false
   },
   {
     "name": "Creamed Manuka Honey",
@@ -969,7 +1022,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": 200,
-    "slug": "creamed-manuka-honey"
+    "slug": "creamed-manuka-honey",
+    "featured": false
   },
   {
     "name": "Australian Manuka Honey",
@@ -987,7 +1041,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": 300,
-    "slug": "australian-manuka-honey"
+    "slug": "australian-manuka-honey",
+    "featured": false
   },
   {
     "name": "Manuka Blend Honey",
@@ -1005,7 +1060,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": 30,
-    "slug": "manuka-blend-honey"
+    "slug": "manuka-blend-honey",
+    "featured": false
   },
   {
     "name": "Raw Manuka Honeycomb",
@@ -1023,7 +1079,8 @@
     "certifications": null,
     "umfRating": 10,
     "mgoRating": 263,
-    "slug": "raw-manuka-honeycomb"
+    "slug": "raw-manuka-honeycomb",
+    "featured": false
   },
   {
     "name": "Manuka & Ginger Infusion",
@@ -1041,7 +1098,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": 150,
-    "slug": "manuka-ginger-infusion"
+    "slug": "manuka-ginger-infusion",
+    "featured": false
   },
   {
     "name": "Multi-Floral Manuka Honey",
@@ -1059,7 +1117,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": 50,
-    "slug": "multi-floral-manuka-honey"
+    "slug": "multi-floral-manuka-honey",
+    "featured": false
   },
   {
     "name": "Manuka UMF 12+",
@@ -1077,7 +1136,8 @@
     "certifications": "UMF_12_PLUS",
     "umfRating": 12,
     "mgoRating": 354,
-    "slug": "manuka-umf-12"
+    "slug": "manuka-umf-12",
+    "featured": false
   },
   {
     "name": "Florida Orange Blossom Honey",
@@ -1095,7 +1155,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "florida-orange-blossom-honey"
+    "slug": "florida-orange-blossom-honey",
+    "featured": true
   },
   {
     "name": "California Orange Blossom Honey",
@@ -1113,7 +1174,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "california-orange-blossom-honey"
+    "slug": "california-orange-blossom-honey",
+    "featured": false
   },
   {
     "name": "Spanish Orange Blossom Honey",
@@ -1131,7 +1193,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "spanish-orange-blossom-honey"
+    "slug": "spanish-orange-blossom-honey",
+    "featured": false
   },
   {
     "name": "Organic Orange Blossom Honey",
@@ -1149,7 +1212,8 @@
     "certifications": "USDA_ORGANIC",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-orange-blossom-honey"
+    "slug": "organic-orange-blossom-honey",
+    "featured": false
   },
   {
     "name": "Creamed Orange Blossom Honey",
@@ -1167,7 +1231,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "creamed-orange-blossom-honey"
+    "slug": "creamed-orange-blossom-honey",
+    "featured": false
   },
   {
     "name": "Mexican Orange Blossom Honey",
@@ -1185,7 +1250,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "mexican-orange-blossom-honey"
+    "slug": "mexican-orange-blossom-honey",
+    "featured": false
   },
   {
     "name": "Italian Citrus Blossom Honey",
@@ -1203,7 +1269,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "italian-citrus-blossom-honey"
+    "slug": "italian-citrus-blossom-honey",
+    "featured": false
   },
   {
     "name": "Arizona Orange Blossom Honey",
@@ -1221,7 +1288,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "arizona-orange-blossom-honey"
+    "slug": "arizona-orange-blossom-honey",
+    "featured": false
   },
   {
     "name": "Brazilian Orange Blossom Honey",
@@ -1239,7 +1307,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "brazilian-orange-blossom-honey"
+    "slug": "brazilian-orange-blossom-honey",
+    "featured": false
   },
   {
     "name": "Greek Orange Blossom Honey",
@@ -1257,7 +1326,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "greek-orange-blossom-honey"
+    "slug": "greek-orange-blossom-honey",
+    "featured": false
   },
   {
     "name": "Texas Orange Blossom Honey",
@@ -1275,7 +1345,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "texas-orange-blossom-honey"
+    "slug": "texas-orange-blossom-honey",
+    "featured": false
   },
   {
     "name": "Filtered Orange Blossom Honey",
@@ -1293,7 +1364,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "filtered-orange-blossom-honey"
+    "slug": "filtered-orange-blossom-honey",
+    "featured": false
   },
   {
     "name": "Orange Blossom Honeycomb",
@@ -1311,7 +1383,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "orange-blossom-honeycomb"
+    "slug": "orange-blossom-honeycomb",
+    "featured": false
   },
   {
     "name": "Citrus Grove Honey",
@@ -1329,7 +1402,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "citrus-grove-honey"
+    "slug": "citrus-grove-honey",
+    "featured": false
   },
   {
     "name": "New York Buckwheat Honey",
@@ -1347,7 +1421,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "new-york-buckwheat-honey"
+    "slug": "new-york-buckwheat-honey",
+    "featured": true
   },
   {
     "name": "Canadian Buckwheat Honey",
@@ -1365,7 +1440,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "canadian-buckwheat-honey"
+    "slug": "canadian-buckwheat-honey",
+    "featured": false
   },
   {
     "name": "Organic Buckwheat Honey",
@@ -1383,7 +1459,8 @@
     "certifications": "USDA_ORGANIC",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-buckwheat-honey"
+    "slug": "organic-buckwheat-honey",
+    "featured": false
   },
   {
     "name": "Ohio Buckwheat Honey",
@@ -1401,7 +1478,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "ohio-buckwheat-honey"
+    "slug": "ohio-buckwheat-honey",
+    "featured": false
   },
   {
     "name": "Minnesota Buckwheat Honey",
@@ -1419,7 +1497,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "minnesota-buckwheat-honey"
+    "slug": "minnesota-buckwheat-honey",
+    "featured": false
   },
   {
     "name": "Washington Buckwheat Honey",
@@ -1437,7 +1516,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "washington-buckwheat-honey"
+    "slug": "washington-buckwheat-honey",
+    "featured": false
   },
   {
     "name": "Michigan Buckwheat Honey",
@@ -1455,7 +1535,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "michigan-buckwheat-honey"
+    "slug": "michigan-buckwheat-honey",
+    "featured": false
   },
   {
     "name": "French Buckwheat Honey",
@@ -1473,7 +1554,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "french-buckwheat-honey"
+    "slug": "french-buckwheat-honey",
+    "featured": false
   },
   {
     "name": "Creamed Buckwheat Honey",
@@ -1491,7 +1573,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "creamed-buckwheat-honey"
+    "slug": "creamed-buckwheat-honey",
+    "featured": false
   },
   {
     "name": "Vermont Buckwheat Honey",
@@ -1509,7 +1592,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "vermont-buckwheat-honey"
+    "slug": "vermont-buckwheat-honey",
+    "featured": false
   },
   {
     "name": "Italian Acacia Honey",
@@ -1527,7 +1611,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "italian-acacia-honey"
+    "slug": "italian-acacia-honey",
+    "featured": false
   },
   {
     "name": "Hungarian Acacia Honey",
@@ -1545,7 +1630,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "hungarian-acacia-honey"
+    "slug": "hungarian-acacia-honey",
+    "featured": true
   },
   {
     "name": "French Acacia Honey",
@@ -1563,7 +1649,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "french-acacia-honey"
+    "slug": "french-acacia-honey",
+    "featured": false
   },
   {
     "name": "Organic Acacia Honey",
@@ -1581,7 +1668,8 @@
     "certifications": "USDA_ORGANIC",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-acacia-honey"
+    "slug": "organic-acacia-honey",
+    "featured": false
   },
   {
     "name": "German Acacia Honey",
@@ -1599,7 +1687,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "german-acacia-honey"
+    "slug": "german-acacia-honey",
+    "featured": false
   },
   {
     "name": "Romanian Acacia Honey",
@@ -1617,7 +1706,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "romanian-acacia-honey"
+    "slug": "romanian-acacia-honey",
+    "featured": false
   },
   {
     "name": "Bulgarian Acacia Honey",
@@ -1635,7 +1725,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "bulgarian-acacia-honey"
+    "slug": "bulgarian-acacia-honey",
+    "featured": false
   },
   {
     "name": "Slovenian Acacia Honey",
@@ -1653,7 +1744,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "slovenian-acacia-honey"
+    "slug": "slovenian-acacia-honey",
+    "featured": false
   },
   {
     "name": "Spanish Acacia Honey",
@@ -1671,7 +1763,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "spanish-acacia-honey"
+    "slug": "spanish-acacia-honey",
+    "featured": false
   },
   {
     "name": "USA Black Locust Honey",
@@ -1689,7 +1782,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "usa-black-locust-honey"
+    "slug": "usa-black-locust-honey",
+    "featured": false
   },
   {
     "name": "Creamed Acacia Honey",
@@ -1707,7 +1801,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "creamed-acacia-honey"
+    "slug": "creamed-acacia-honey",
+    "featured": false
   },
   {
     "name": "Greek Acacia Honey",
@@ -1725,7 +1820,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "greek-acacia-honey"
+    "slug": "greek-acacia-honey",
+    "featured": false
   },
   {
     "name": "Ukrainian Acacia Honey",
@@ -1743,7 +1839,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "ukrainian-acacia-honey"
+    "slug": "ukrainian-acacia-honey",
+    "featured": false
   },
   {
     "name": "Serbian Acacia Honey",
@@ -1761,7 +1858,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "serbian-acacia-honey"
+    "slug": "serbian-acacia-honey",
+    "featured": false
   },
   {
     "name": "French Lavender Honey",
@@ -1779,7 +1877,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "french-lavender-honey"
+    "slug": "french-lavender-honey",
+    "featured": true
   },
   {
     "name": "Spanish Lavender Honey",
@@ -1797,7 +1896,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "spanish-lavender-honey"
+    "slug": "spanish-lavender-honey",
+    "featured": false
   },
   {
     "name": "California Lavender Honey",
@@ -1815,7 +1915,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "california-lavender-honey"
+    "slug": "california-lavender-honey",
+    "featured": false
   },
   {
     "name": "Organic Lavender Honey",
@@ -1833,7 +1934,8 @@
     "certifications": "USDA_ORGANIC",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-lavender-honey"
+    "slug": "organic-lavender-honey",
+    "featured": false
   },
   {
     "name": "Bulgarian Lavender Honey",
@@ -1851,7 +1953,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "bulgarian-lavender-honey"
+    "slug": "bulgarian-lavender-honey",
+    "featured": false
   },
   {
     "name": "Italian Lavender Honey",
@@ -1869,7 +1972,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "italian-lavender-honey"
+    "slug": "italian-lavender-honey",
+    "featured": false
   },
   {
     "name": "Oregon Lavender Honey",
@@ -1887,7 +1991,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "oregon-lavender-honey"
+    "slug": "oregon-lavender-honey",
+    "featured": false
   },
   {
     "name": "Australian Lavender Honey",
@@ -1905,7 +2010,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "australian-lavender-honey"
+    "slug": "australian-lavender-honey",
+    "featured": false
   },
   {
     "name": "Creamed Lavender Honey",
@@ -1923,7 +2029,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "creamed-lavender-honey"
+    "slug": "creamed-lavender-honey",
+    "featured": false
   },
   {
     "name": "UK Lavender Honey",
@@ -1941,7 +2048,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "uk-lavender-honey"
+    "slug": "uk-lavender-honey",
+    "featured": false
   },
   {
     "name": "Florida Tupelo Honey",
@@ -1959,7 +2067,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "florida-tupelo-honey"
+    "slug": "florida-tupelo-honey",
+    "featured": false
   },
   {
     "name": "Certified Tupelo Honey",
@@ -1977,7 +2086,8 @@
     "certifications": "TRUE_SOURCE",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "certified-tupelo-honey"
+    "slug": "certified-tupelo-honey",
+    "featured": false
   },
   {
     "name": "Georgia Tupelo Honey",
@@ -1995,7 +2105,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "georgia-tupelo-honey"
+    "slug": "georgia-tupelo-honey",
+    "featured": false
   },
   {
     "name": "Premium Tupelo Honey",
@@ -2013,7 +2124,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "premium-tupelo-honey"
+    "slug": "premium-tupelo-honey",
+    "featured": false
   },
   {
     "name": "Organic Tupelo Honey",
@@ -2031,7 +2143,8 @@
     "certifications": "USDA_ORGANIC",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-tupelo-honey"
+    "slug": "organic-tupelo-honey",
+    "featured": false
   },
   {
     "name": "California Sage Honey",
@@ -2049,7 +2162,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "california-sage-honey"
+    "slug": "california-sage-honey",
+    "featured": false
   },
   {
     "name": "White Sage Honey",
@@ -2067,7 +2181,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "white-sage-honey"
+    "slug": "white-sage-honey",
+    "featured": false
   },
   {
     "name": "Black Sage Honey",
@@ -2085,7 +2200,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "black-sage-honey"
+    "slug": "black-sage-honey",
+    "featured": false
   },
   {
     "name": "Purple Sage Honey",
@@ -2103,7 +2219,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "purple-sage-honey"
+    "slug": "purple-sage-honey",
+    "featured": false
   },
   {
     "name": "Organic Sage Honey",
@@ -2121,7 +2238,8 @@
     "certifications": "USDA_ORGANIC",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-sage-honey"
+    "slug": "organic-sage-honey",
+    "featured": false
   },
   {
     "name": "San Diego Sage Honey",
@@ -2139,7 +2257,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "san-diego-sage-honey"
+    "slug": "san-diego-sage-honey",
+    "featured": false
   },
   {
     "name": "Ventura Sage Honey",
@@ -2157,7 +2276,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "ventura-sage-honey"
+    "slug": "ventura-sage-honey",
+    "featured": false
   },
   {
     "name": "Creamed Sage Honey",
@@ -2175,7 +2295,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "creamed-sage-honey"
+    "slug": "creamed-sage-honey",
+    "featured": false
   },
   {
     "name": "Appalachian Sourwood Honey",
@@ -2193,7 +2314,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "appalachian-sourwood-honey"
+    "slug": "appalachian-sourwood-honey",
+    "featured": false
   },
   {
     "name": "North Carolina Sourwood Honey",
@@ -2211,7 +2333,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "north-carolina-sourwood-honey"
+    "slug": "north-carolina-sourwood-honey",
+    "featured": false
   },
   {
     "name": "Georgia Sourwood Honey",
@@ -2229,7 +2352,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "georgia-sourwood-honey"
+    "slug": "georgia-sourwood-honey",
+    "featured": false
   },
   {
     "name": "Tennessee Sourwood Honey",
@@ -2247,7 +2371,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "tennessee-sourwood-honey"
+    "slug": "tennessee-sourwood-honey",
+    "featured": false
   },
   {
     "name": "Virginia Sourwood Honey",
@@ -2265,7 +2390,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "virginia-sourwood-honey"
+    "slug": "virginia-sourwood-honey",
+    "featured": false
   },
   {
     "name": "Kentucky Sourwood Honey",
@@ -2283,7 +2409,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "kentucky-sourwood-honey"
+    "slug": "kentucky-sourwood-honey",
+    "featured": false
   },
   {
     "name": "West Virginia Sourwood Honey",
@@ -2301,7 +2428,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "west-virginia-sourwood-honey"
+    "slug": "west-virginia-sourwood-honey",
+    "featured": false
   },
   {
     "name": "Certified Sourwood Honey",
@@ -2319,7 +2447,8 @@
     "certifications": "TRUE_SOURCE",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "certified-sourwood-honey"
+    "slug": "certified-sourwood-honey",
+    "featured": false
   },
   {
     "name": "Australian Eucalyptus Honey",
@@ -2337,7 +2466,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "australian-eucalyptus-honey"
+    "slug": "australian-eucalyptus-honey",
+    "featured": false
   },
   {
     "name": "California Eucalyptus Honey",
@@ -2355,7 +2485,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "california-eucalyptus-honey"
+    "slug": "california-eucalyptus-honey",
+    "featured": false
   },
   {
     "name": "Blue Gum Eucalyptus Honey",
@@ -2373,7 +2504,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "blue-gum-eucalyptus-honey"
+    "slug": "blue-gum-eucalyptus-honey",
+    "featured": false
   },
   {
     "name": "Red Gum Eucalyptus Honey",
@@ -2391,7 +2523,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "red-gum-eucalyptus-honey"
+    "slug": "red-gum-eucalyptus-honey",
+    "featured": false
   },
   {
     "name": "Yellow Box Eucalyptus Honey",
@@ -2409,7 +2542,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "yellow-box-eucalyptus-honey"
+    "slug": "yellow-box-eucalyptus-honey",
+    "featured": false
   },
   {
     "name": "Brazilian Eucalyptus Honey",
@@ -2427,7 +2561,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "brazilian-eucalyptus-honey"
+    "slug": "brazilian-eucalyptus-honey",
+    "featured": false
   },
   {
     "name": "Spanish Eucalyptus Honey",
@@ -2445,7 +2580,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "spanish-eucalyptus-honey"
+    "slug": "spanish-eucalyptus-honey",
+    "featured": false
   },
   {
     "name": "Organic Eucalyptus Honey",
@@ -2463,7 +2599,8 @@
     "certifications": "USDA_ORGANIC",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-eucalyptus-honey"
+    "slug": "organic-eucalyptus-honey",
+    "featured": false
   },
   {
     "name": "Iron Bark Eucalyptus Honey",
@@ -2481,7 +2618,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "iron-bark-eucalyptus-honey"
+    "slug": "iron-bark-eucalyptus-honey",
+    "featured": false
   },
   {
     "name": "Portugal Eucalyptus Honey",
@@ -2499,7 +2637,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "portugal-eucalyptus-honey"
+    "slug": "portugal-eucalyptus-honey",
+    "featured": false
   },
   {
     "name": "Maine Blueberry Honey",
@@ -2517,7 +2656,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "maine-blueberry-honey"
+    "slug": "maine-blueberry-honey",
+    "featured": false
   },
   {
     "name": "Michigan Blueberry Honey",
@@ -2535,7 +2675,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "michigan-blueberry-honey"
+    "slug": "michigan-blueberry-honey",
+    "featured": false
   },
   {
     "name": "New Jersey Blueberry Honey",
@@ -2553,7 +2694,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "new-jersey-blueberry-honey"
+    "slug": "new-jersey-blueberry-honey",
+    "featured": false
   },
   {
     "name": "Canadian Blueberry Honey",
@@ -2571,7 +2713,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "canadian-blueberry-honey"
+    "slug": "canadian-blueberry-honey",
+    "featured": false
   },
   {
     "name": "Oregon Blueberry Honey",
@@ -2589,7 +2732,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "oregon-blueberry-honey"
+    "slug": "oregon-blueberry-honey",
+    "featured": false
   },
   {
     "name": "California Avocado Honey",
@@ -2607,7 +2751,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "california-avocado-honey"
+    "slug": "california-avocado-honey",
+    "featured": false
   },
   {
     "name": "Mexican Avocado Honey",
@@ -2625,7 +2770,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "mexican-avocado-honey"
+    "slug": "mexican-avocado-honey",
+    "featured": false
   },
   {
     "name": "San Diego Avocado Honey",
@@ -2643,7 +2789,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "san-diego-avocado-honey"
+    "slug": "san-diego-avocado-honey",
+    "featured": false
   },
   {
     "name": "Organic Avocado Honey",
@@ -2661,7 +2808,8 @@
     "certifications": "USDA_ORGANIC",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-avocado-honey"
+    "slug": "organic-avocado-honey",
+    "featured": false
   },
   {
     "name": "Ventura Avocado Honey",
@@ -2679,7 +2827,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "ventura-avocado-honey"
+    "slug": "ventura-avocado-honey",
+    "featured": false
   },
   {
     "name": "German Linden Honey",
@@ -2697,7 +2846,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "german-linden-honey"
+    "slug": "german-linden-honey",
+    "featured": false
   },
   {
     "name": "Hungarian Linden Honey",
@@ -2715,7 +2865,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "hungarian-linden-honey"
+    "slug": "hungarian-linden-honey",
+    "featured": false
   },
   {
     "name": "Polish Linden Honey",
@@ -2733,7 +2884,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "polish-linden-honey"
+    "slug": "polish-linden-honey",
+    "featured": false
   },
   {
     "name": "Russian Linden Honey",
@@ -2751,7 +2903,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "russian-linden-honey"
+    "slug": "russian-linden-honey",
+    "featured": false
   },
   {
     "name": "USA Basswood Honey",
@@ -2769,7 +2922,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "usa-basswood-honey"
+    "slug": "usa-basswood-honey",
+    "featured": false
   },
   {
     "name": "French Linden Honey",
@@ -2787,7 +2941,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "french-linden-honey"
+    "slug": "french-linden-honey",
+    "featured": false
   },
   {
     "name": "Canadian Basswood Honey",
@@ -2805,7 +2960,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "canadian-basswood-honey"
+    "slug": "canadian-basswood-honey",
+    "featured": false
   },
   {
     "name": "Czech Linden Honey",
@@ -2823,7 +2979,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "czech-linden-honey"
+    "slug": "czech-linden-honey",
+    "featured": false
   },
   {
     "name": "Michigan Basswood Honey",
@@ -2841,7 +2998,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "michigan-basswood-honey"
+    "slug": "michigan-basswood-honey",
+    "featured": false
   },
   {
     "name": "Organic Linden Honey",
@@ -2859,7 +3017,8 @@
     "certifications": "USDA_ORGANIC",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-linden-honey"
+    "slug": "organic-linden-honey",
+    "featured": false
   },
   {
     "name": "Italian Chestnut Honey",
@@ -2877,7 +3036,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "italian-chestnut-honey"
+    "slug": "italian-chestnut-honey",
+    "featured": false
   },
   {
     "name": "Turkish Chestnut Honey",
@@ -2895,7 +3055,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "turkish-chestnut-honey"
+    "slug": "turkish-chestnut-honey",
+    "featured": false
   },
   {
     "name": "French Chestnut Honey",
@@ -2913,7 +3074,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "french-chestnut-honey"
+    "slug": "french-chestnut-honey",
+    "featured": false
   },
   {
     "name": "Spanish Chestnut Honey",
@@ -2931,7 +3093,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "spanish-chestnut-honey"
+    "slug": "spanish-chestnut-honey",
+    "featured": false
   },
   {
     "name": "Greek Chestnut Honey",
@@ -2949,7 +3112,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "greek-chestnut-honey"
+    "slug": "greek-chestnut-honey",
+    "featured": false
   },
   {
     "name": "Portuguese Chestnut Honey",
@@ -2967,7 +3131,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "portuguese-chestnut-honey"
+    "slug": "portuguese-chestnut-honey",
+    "featured": false
   },
   {
     "name": "Organic Chestnut Honey",
@@ -2985,7 +3150,8 @@
     "certifications": "USDA_ORGANIC",
     "umfRating": null,
     "mgoRating": null,
-    "slug": "organic-chestnut-honey"
+    "slug": "organic-chestnut-honey",
+    "featured": false
   },
   {
     "name": "Swiss Chestnut Honey",
@@ -3003,7 +3169,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "swiss-chestnut-honey"
+    "slug": "swiss-chestnut-honey",
+    "featured": false
   },
   {
     "name": "Scottish Heather Honey",
@@ -3021,7 +3188,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "scottish-heather-honey"
+    "slug": "scottish-heather-honey",
+    "featured": false
   },
   {
     "name": "Welsh Heather Honey",
@@ -3039,7 +3207,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "welsh-heather-honey"
+    "slug": "welsh-heather-honey",
+    "featured": false
   },
   {
     "name": "Irish Heather Honey",
@@ -3057,7 +3226,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "irish-heather-honey"
+    "slug": "irish-heather-honey",
+    "featured": false
   },
   {
     "name": "Spanish Heather Honey",
@@ -3075,7 +3245,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "spanish-heather-honey"
+    "slug": "spanish-heather-honey",
+    "featured": false
   },
   {
     "name": "Portuguese Heather Honey",
@@ -3093,7 +3264,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "portuguese-heather-honey"
+    "slug": "portuguese-heather-honey",
+    "featured": false
   },
   {
     "name": "English Heather Honey",
@@ -3111,7 +3283,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "english-heather-honey"
+    "slug": "english-heather-honey",
+    "featured": false
   },
   {
     "name": "New Zealand Heather Honey",
@@ -3129,7 +3302,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "new-zealand-heather-honey"
+    "slug": "new-zealand-heather-honey",
+    "featured": false
   },
   {
     "name": "Creamed Heather Honey",
@@ -3147,7 +3321,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "creamed-heather-honey"
+    "slug": "creamed-heather-honey",
+    "featured": false
   },
   {
     "name": "Hawaiian Macadamia Blossom Honey",
@@ -3165,7 +3340,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "hawaiian-macadamia-blossom-honey"
+    "slug": "hawaiian-macadamia-blossom-honey",
+    "featured": false
   },
   {
     "name": "Coffee Blossom Honey",
@@ -3183,7 +3359,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "coffee-blossom-honey"
+    "slug": "coffee-blossom-honey",
+    "featured": false
   },
   {
     "name": "Hawaiian Kiawe Honey",
@@ -3201,7 +3378,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "hawaiian-kiawe-honey"
+    "slug": "hawaiian-kiawe-honey",
+    "featured": false
   },
   {
     "name": "Hawaiian Lehua Honey",
@@ -3219,7 +3397,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "hawaiian-lehua-honey"
+    "slug": "hawaiian-lehua-honey",
+    "featured": false
   },
   {
     "name": "Sidr Honey - Yemen",
@@ -3237,7 +3416,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "sidr-honey-yemen"
+    "slug": "sidr-honey-yemen",
+    "featured": false
   },
   {
     "name": "Greek Thyme Honey",
@@ -3255,7 +3435,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "greek-thyme-honey"
+    "slug": "greek-thyme-honey",
+    "featured": false
   },
   {
     "name": "Spanish Rosemary Honey",
@@ -3273,7 +3454,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "spanish-rosemary-honey"
+    "slug": "spanish-rosemary-honey",
+    "featured": false
   },
   {
     "name": "Turkish Pine Honey",
@@ -3291,7 +3473,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "turkish-pine-honey"
+    "slug": "turkish-pine-honey",
+    "featured": false
   },
   {
     "name": "Italian Sulla Honey",
@@ -3309,7 +3492,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "italian-sulla-honey"
+    "slug": "italian-sulla-honey",
+    "featured": false
   },
   {
     "name": "Mexican Mesquite Honey",
@@ -3327,7 +3511,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "mexican-mesquite-honey"
+    "slug": "mexican-mesquite-honey",
+    "featured": false
   },
   {
     "name": "Arizona Mesquite Honey",
@@ -3345,7 +3530,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "arizona-mesquite-honey"
+    "slug": "arizona-mesquite-honey",
+    "featured": false
   },
   {
     "name": "New Zealand Rata Honey",
@@ -3363,7 +3549,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "new-zealand-rata-honey"
+    "slug": "new-zealand-rata-honey",
+    "featured": false
   },
   {
     "name": "New Zealand Kamahi Honey",
@@ -3381,7 +3568,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "new-zealand-kamahi-honey"
+    "slug": "new-zealand-kamahi-honey",
+    "featured": false
   },
   {
     "name": "Australian Leatherwood Honey",
@@ -3399,7 +3587,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "australian-leatherwood-honey"
+    "slug": "australian-leatherwood-honey",
+    "featured": false
   },
   {
     "name": "New Zealand Tawari Honey",
@@ -3417,7 +3606,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "new-zealand-tawari-honey"
+    "slug": "new-zealand-tawari-honey",
+    "featured": false
   },
   {
     "name": "Meadowfoam Honey - Oregon",
@@ -3435,7 +3625,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "meadowfoam-honey-oregon"
+    "slug": "meadowfoam-honey-oregon",
+    "featured": false
   },
   {
     "name": "Fireweed Honey - Alaska",
@@ -3453,7 +3644,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "fireweed-honey-alaska"
+    "slug": "fireweed-honey-alaska",
+    "featured": false
   },
   {
     "name": "Canadian Fireweed Honey",
@@ -3471,7 +3663,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "canadian-fireweed-honey"
+    "slug": "canadian-fireweed-honey",
+    "featured": false
   },
   {
     "name": "Star Thistle Honey - California",
@@ -3489,7 +3682,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "star-thistle-honey-california"
+    "slug": "star-thistle-honey-california",
+    "featured": false
   },
   {
     "name": "Tulip Poplar Honey - Tennessee",
@@ -3507,7 +3701,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "tulip-poplar-honey-tennessee"
+    "slug": "tulip-poplar-honey-tennessee",
+    "featured": false
   },
   {
     "name": "Gallberry Honey - Florida",
@@ -3525,7 +3720,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "gallberry-honey-florida"
+    "slug": "gallberry-honey-florida",
+    "featured": false
   },
   {
     "name": "Saw Palmetto Honey - Florida",
@@ -3543,7 +3739,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "saw-palmetto-honey-florida"
+    "slug": "saw-palmetto-honey-florida",
+    "featured": false
   },
   {
     "name": "Cotton Honey - Texas",
@@ -3561,7 +3758,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "cotton-honey-texas"
+    "slug": "cotton-honey-texas",
+    "featured": false
   },
   {
     "name": "Sunflower Honey - France",
@@ -3579,7 +3777,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "sunflower-honey-france"
+    "slug": "sunflower-honey-france",
+    "featured": false
   },
   {
     "name": "Alfalfa Honey - Argentina",
@@ -3597,7 +3796,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "alfalfa-honey-argentina"
+    "slug": "alfalfa-honey-argentina",
+    "featured": false
   },
   {
     "name": "USA Alfalfa Honey",
@@ -3615,7 +3815,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "usa-alfalfa-honey"
+    "slug": "usa-alfalfa-honey",
+    "featured": false
   },
   {
     "name": "Greek Pine Honey",
@@ -3633,7 +3834,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "greek-pine-honey"
+    "slug": "greek-pine-honey",
+    "featured": false
   },
   {
     "name": "German Forest Honey",
@@ -3651,7 +3853,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "german-forest-honey"
+    "slug": "german-forest-honey",
+    "featured": false
   },
   {
     "name": "Austrian Alpine Honey",
@@ -3669,7 +3872,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "austrian-alpine-honey"
+    "slug": "austrian-alpine-honey",
+    "featured": false
   },
   {
     "name": "Swiss Alpine Flower Honey",
@@ -3687,7 +3891,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "swiss-alpine-flower-honey"
+    "slug": "swiss-alpine-flower-honey",
+    "featured": false
   },
   {
     "name": "Hot Honey - Infused",
@@ -3705,7 +3910,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "hot-honey-infused"
+    "slug": "hot-honey-infused",
+    "featured": false
   },
   {
     "name": "Truffle Honey - Italy",
@@ -3723,7 +3929,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "truffle-honey-italy"
+    "slug": "truffle-honey-italy",
+    "featured": false
   },
   {
     "name": "Cinnamon Infused Honey",
@@ -3741,7 +3948,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "cinnamon-infused-honey"
+    "slug": "cinnamon-infused-honey",
+    "featured": false
   },
   {
     "name": "Lemon Ginger Honey",
@@ -3759,7 +3967,8 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "lemon-ginger-honey"
+    "slug": "lemon-ginger-honey",
+    "featured": false
   },
   {
     "name": "Bourbon Barrel Aged Honey",
@@ -3777,6 +3986,7 @@
     "certifications": null,
     "umfRating": null,
     "mgoRating": null,
-    "slug": "bourbon-barrel-aged-honey"
+    "slug": "bourbon-barrel-aged-honey",
+    "featured": false
   }
 ]
