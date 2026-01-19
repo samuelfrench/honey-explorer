@@ -100,4 +100,10 @@ public class Honey extends BaseAuditEntity {
      */
     @Column(nullable = false)
     private boolean featured = false;
+
+    /**
+     * URL where this honey can be purchased (Amazon, brand website, etc.).
+     */
+    @Column(length = 500)
+    private String purchaseUrl;
 }

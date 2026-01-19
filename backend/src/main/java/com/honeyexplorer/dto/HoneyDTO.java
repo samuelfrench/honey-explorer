@@ -30,7 +30,8 @@ public record HoneyDTO(
     Integer umfRating,
     Integer mgoRating,
     String slug,
-    boolean featured
+    boolean featured,
+    String purchaseUrl
 ) {
     /**
      * Create a HoneyDTO from a Honey entity.
@@ -57,7 +58,8 @@ public record HoneyDTO(
             honey.getUmfRating(),
             honey.getMgoRating(),
             honey.getSlug(),
-            honey.isFeatured()
+            honey.isFeatured(),
+            honey.getPurchaseUrl()
         );
     }
 }

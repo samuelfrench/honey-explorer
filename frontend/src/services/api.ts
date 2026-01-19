@@ -27,6 +27,7 @@ export interface Honey {
   mgoRating: number | null;
   slug: string;
   featured: boolean;
+  purchaseUrl: string | null;
 }
 
 export interface Page<T> {

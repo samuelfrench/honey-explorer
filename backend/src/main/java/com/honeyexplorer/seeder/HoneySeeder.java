@@ -92,6 +92,7 @@ public class HoneySeeder {
         honey.setMgoRating(dto.mgoRating());
         honey.setSlug(dto.slug());
         honey.setFeatured(dto.isFeatured());
+        honey.setPurchaseUrl(dto.purchaseUrl());
 
         // Verification metadata
         honey.setLastVerifiedAt(verifiedAt);

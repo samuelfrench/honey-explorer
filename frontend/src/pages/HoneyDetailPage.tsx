@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { Container, Section } from '../components/layout';
 import { Badge, Button, Spinner } from '../components/ui';
 import { SEO } from '../components/seo';
@@ -192,10 +192,25 @@ export function HoneyDetailPage() {
               )}
 
               {/* Type */}
-              <div>
+              <div className="mb-6">
                 <h3 className="font-semibold text-comb-800 mb-2">Type</h3>
                 <p className="text-comb-700">{honey.typeDisplay}</p>
               </div>
+
+              {/* Purchase CTA */}
+              {honey.purchaseUrl && (
+                <a
+                  href={honey.purchaseUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <Button variant="primary" size="lg" className="w-full sm:w-auto">
+                    <ExternalLink className="w-5 h-5 mr-2" />
+                    Buy This Honey
+                  </Button>
+                </a>
+              )}
             </div>
           </div>
         </Container>

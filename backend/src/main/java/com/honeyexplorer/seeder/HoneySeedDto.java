@@ -22,7 +22,8 @@ public record HoneySeedDto(
     Integer umfRating,
     Integer mgoRating,
     String slug,
-    Boolean featured
+    Boolean featured,
+    String purchaseUrl
 ) {
     /**
      * Returns featured status, defaulting to false if null.

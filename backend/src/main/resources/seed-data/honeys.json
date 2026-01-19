@@ -16,7 +16,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "pure-clover-honey-usa",
-    "featured": true
+    "featured": true,
+    "purchaseUrl": "https://www.amazon.com/s?k=Really+Raw+Honey+Pure+Clover+Honey+-+USA+honey"
   },
   {
     "name": "Organic White Clover Honey",
@@ -35,7 +36,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-white-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Nature+Nates+Organic+White+Clover+Honey+honey"
   },
   {
     "name": "Canadian Clover Honey",
@@ -54,7 +56,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "canadian-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Billy+Bee+Canadian+Clover+Honey+honey"
   },
   {
     "name": "Creamed Clover Honey",
@@ -73,7 +76,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "creamed-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Coxs+Honey+Creamed+Clover+Honey+honey"
   },
   {
     "name": "New Zealand Clover Honey",
@@ -92,7 +96,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "new-zealand-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Arataki+Honey+New+Zealand+Clover+Honey+honey"
   },
   {
     "name": "Sweet Clover Honey",
@@ -111,7 +116,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "sweet-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Local+Hive+Sweet+Clover+Honey+honey"
   },
   {
     "name": "Red Clover Honey",
@@ -130,7 +136,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "red-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Sioux+Honey+Red+Clover+Honey+honey"
   },
   {
     "name": "Prairie Clover Honey",
@@ -149,7 +156,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "prairie-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Prairie+Harvest+Prairie+Clover+Honey+honey"
   },
   {
     "name": "Clover Honey Comb",
@@ -168,7 +176,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "clover-honey-comb",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=GloryBee+Clover+Honey+Comb+honey"
   },
   {
     "name": "Manitoba Clover Honey",
@@ -187,7 +196,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "manitoba-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bee+Maid+Manitoba+Clover+Honey+honey"
   },
   {
     "name": "Artisan Clover Honey",
@@ -206,7 +216,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "artisan-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Vermont+Bee+Company+Artisan+Clover+Honey+honey"
   },
   {
     "name": "Golden Clover Honey",
@@ -225,7 +236,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "golden-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Golden+Heritage+Golden+Clover+Honey+honey"
   },
   {
     "name": "Alsike Clover Honey",
@@ -244,7 +256,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "alsike-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Prairie+Bee+Alsike+Clover+Honey+honey"
   },
   {
     "name": "Farm Fresh Clover Honey",
@@ -263,7 +276,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "farm-fresh-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Millers+Honey+Farm+Fresh+Clover+Honey+honey"
   },
   {
     "name": "Organic Clover Honey - Canada",
@@ -282,7 +296,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-clover-honey-canada",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Heavenly+Organics+Organic+Clover+Honey+-+Canada+honey"
   },
   {
     "name": "Clover Blossom Honey",
@@ -301,7 +316,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "clover-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Montana+Gold+Clover+Blossom+Honey+honey"
   },
   {
     "name": "Dutch Clover Honey",
@@ -320,7 +336,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "dutch-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=De+Traay+Dutch+Clover+Honey+honey"
   },
   {
     "name": "Infused Clover Honey with Vanilla",
@@ -339,7 +356,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "infused-clover-honey-vanilla",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Savannah+Bee+Company+Infused+Clover+Honey+with+Vanilla+honey"
   },
   {
     "name": "Crimson Clover Honey",
@@ -358,7 +376,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "crimson-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Oregon+Growers+Crimson+Clover+Honey+honey"
   },
   {
     "name": "Pasteurized Clover Honey",
@@ -377,7 +396,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "pasteurized-clover-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Sue+Bee+Pasteurized+Clover+Honey+honey"
   },
   {
     "name": "Mountain Wildflower Honey - California",
@@ -396,7 +416,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "mountain-wildflower-honey-california",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Y.S.+Eco+Bee+Farms+Mountain+Wildflower+Honey+-+California+honey"
   },
   {
     "name": "Texas Wildflower Honey",
@@ -415,7 +436,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "texas-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Texas+Bee+Company+Texas+Wildflower+Honey+honey"
   },
   {
     "name": "Georgia Wildflower Honey",
@@ -434,7 +456,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "georgia-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Savannah+Bee+Company+Georgia+Wildflower+Honey+honey"
   },
   {
     "name": "New York Wildflower Honey",
@@ -453,7 +476,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "new-york-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bees+Knees+Honey+New+York+Wildflower+Honey+honey"
   },
   {
     "name": "Florida Wildflower Honey",
@@ -472,7 +496,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "florida-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Florida+Native+Florida+Wildflower+Honey+honey"
   },
   {
     "name": "Pacific Northwest Wildflower Honey",
@@ -491,7 +516,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "pacific-northwest-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Portland+Bee+Company+Pacific+Northwest+Wildflower+Honey+honey"
   },
   {
     "name": "Australian Wildflower Honey",
@@ -510,7 +536,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "australian-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Beechworth+Honey+Australian+Wildflower+Honey+honey"
   },
   {
     "name": "Mexican Wildflower Honey",
@@ -529,7 +556,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "mexican-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+de+Yucatan+Mexican+Wildflower+Honey+honey"
   },
   {
     "name": "Spanish Wildflower Honey",
@@ -548,7 +576,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "spanish-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=La+Celda+Real+Spanish+Wildflower+Honey+honey"
   },
   {
     "name": "Appalachian Wildflower Honey",
@@ -567,7 +596,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "appalachian-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Carolina+Honey+Bee+Appalachian+Wildflower+Honey+honey"
   },
   {
     "name": "Creamed Wildflower Honey",
@@ -586,7 +616,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "creamed-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Vermont+Bee+Company+Creamed+Wildflower+Honey+honey"
   },
   {
     "name": "Greek Wildflower Honey",
@@ -605,7 +636,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "greek-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Meligyris+Greek+Wildflower+Honey+honey"
   },
   {
     "name": "Italian Wildflower Honey",
@@ -624,7 +656,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "italian-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Rigoni+di+Asiago+Italian+Wildflower+Honey+honey"
   },
   {
     "name": "Argentine Wildflower Honey",
@@ -643,7 +676,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "argentine-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Patagonia+Honey+Argentine+Wildflower+Honey+honey"
   },
   {
     "name": "Hawaiian Wildflower Honey",
@@ -662,7 +696,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "hawaiian-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Big+Island+Bees+Hawaiian+Wildflower+Honey+honey"
   },
   {
     "name": "Colorado Wildflower Honey",
@@ -681,7 +716,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "colorado-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Colorado+Mountain+Honey+Colorado+Wildflower+Honey+honey"
   },
   {
     "name": "Desert Wildflower Honey - Arizona",
@@ -700,7 +736,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "desert-wildflower-honey-arizona",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Desert+Creek+Honey+Desert+Wildflower+Honey+-+Arizona+honey"
   },
   {
     "name": "Wisconsin Wildflower Honey",
@@ -719,7 +756,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "wisconsin-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Honey+Acres+Wisconsin+Wildflower+Honey+honey"
   },
   {
     "name": "Hungarian Wildflower Honey",
@@ -738,7 +776,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "hungarian-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Hungarian+Gold+Hungarian+Wildflower+Honey+honey"
   },
   {
     "name": "Brazilian Wildflower Honey",
@@ -757,7 +796,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "brazilian-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Brasil+Honey+Brazilian+Wildflower+Honey+honey"
   },
   {
     "name": "French Wildflower Honey",
@@ -776,7 +816,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "french-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Les+Ruchers+du+Luberon+French+Wildflower+Honey+honey"
   },
   {
     "name": "Turkish Wildflower Honey",
@@ -795,7 +836,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "turkish-wildflower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Balparmak+Turkish+Wildflower+Honey+honey"
   },
   {
     "name": "New Zealand Manuka UMF 5+",
@@ -814,7 +856,8 @@
     "umfRating": 5,
     "mgoRating": 83,
     "slug": "new-zealand-manuka-umf-5",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Comvita+New+Zealand+Manuka+UMF+5++honey"
   },
   {
     "name": "New Zealand Manuka UMF 10+",
@@ -833,7 +876,8 @@
     "umfRating": 10,
     "mgoRating": 263,
     "slug": "new-zealand-manuka-umf-10",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Comvita+New+Zealand+Manuka+UMF+10++honey"
   },
   {
     "name": "New Zealand Manuka UMF 15+",
@@ -852,7 +896,8 @@
     "umfRating": 15,
     "mgoRating": 514,
     "slug": "new-zealand-manuka-umf-15",
-    "featured": true
+    "featured": true,
+    "purchaseUrl": "https://www.amazon.com/s?k=Manuka+Health+New+Zealand+Manuka+UMF+15++honey"
   },
   {
     "name": "New Zealand Manuka UMF 20+",
@@ -871,7 +916,8 @@
     "umfRating": 20,
     "mgoRating": 829,
     "slug": "new-zealand-manuka-umf-20",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Manuka+Doctor+New+Zealand+Manuka+UMF+20++honey"
   },
   {
     "name": "New Zealand Manuka UMF 25+",
@@ -890,7 +936,8 @@
     "umfRating": 25,
     "mgoRating": 1200,
     "slug": "new-zealand-manuka-umf-25",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Kiva+New+Zealand+Manuka+UMF+25++honey"
   },
   {
     "name": "Manuka MGO 100+",
@@ -909,7 +956,8 @@
     "umfRating": null,
     "mgoRating": 100,
     "slug": "manuka-mgo-100",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Wedderspoon+Manuka+MGO+100++honey"
   },
   {
     "name": "Manuka MGO 250+",
@@ -928,7 +976,8 @@
     "umfRating": null,
     "mgoRating": 250,
     "slug": "manuka-mgo-250",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Manuka+Health+Manuka+MGO+250++honey"
   },
   {
     "name": "Manuka MGO 400+",
@@ -947,7 +996,8 @@
     "umfRating": null,
     "mgoRating": 400,
     "slug": "manuka-mgo-400",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Steens+Manuka+MGO+400++honey"
   },
   {
     "name": "Manuka MGO 550+",
@@ -966,7 +1016,8 @@
     "umfRating": null,
     "mgoRating": 550,
     "slug": "manuka-mgo-550",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Manuka+Doctor+Manuka+MGO+550++honey"
   },
   {
     "name": "Manuka MGO 850+",
@@ -985,7 +1036,8 @@
     "umfRating": null,
     "mgoRating": 850,
     "slug": "manuka-mgo-850",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Kiva+Manuka+MGO+850++honey"
   },
   {
     "name": "Organic Manuka Honey UMF 10+",
@@ -1004,7 +1056,8 @@
     "umfRating": 10,
     "mgoRating": 263,
     "slug": "organic-manuka-umf-10",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Comvita+Organic+Manuka+Honey+UMF+10++honey"
   },
   {
     "name": "Creamed Manuka Honey",
@@ -1023,7 +1076,8 @@
     "umfRating": null,
     "mgoRating": 200,
     "slug": "creamed-manuka-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Wedderspoon+Creamed+Manuka+Honey+honey"
   },
   {
     "name": "Australian Manuka Honey",
@@ -1042,7 +1096,8 @@
     "umfRating": null,
     "mgoRating": 300,
     "slug": "australian-manuka-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Capilano+Australian+Manuka+Honey+honey"
   },
   {
     "name": "Manuka Blend Honey",
@@ -1061,7 +1116,8 @@
     "umfRating": null,
     "mgoRating": 30,
     "slug": "manuka-blend-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Pacific+Resources+Manuka+Blend+Honey+honey"
   },
   {
     "name": "Raw Manuka Honeycomb",
@@ -1080,7 +1136,8 @@
     "umfRating": 10,
     "mgoRating": 263,
     "slug": "raw-manuka-honeycomb",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bee+Plus+Raw+Manuka+Honeycomb+honey"
   },
   {
     "name": "Manuka & Ginger Infusion",
@@ -1099,7 +1156,8 @@
     "umfRating": null,
     "mgoRating": 150,
     "slug": "manuka-ginger-infusion",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Manuka+Health+Manuka+&+Ginger+Infusion+honey"
   },
   {
     "name": "Multi-Floral Manuka Honey",
@@ -1118,7 +1176,8 @@
     "umfRating": null,
     "mgoRating": 50,
     "slug": "multi-floral-manuka-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Steens+Multi-Floral+Manuka+Honey+honey"
   },
   {
     "name": "Manuka UMF 12+",
@@ -1137,7 +1196,8 @@
     "umfRating": 12,
     "mgoRating": 354,
     "slug": "manuka-umf-12",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Happy+Valley+Manuka+UMF+12++honey"
   },
   {
     "name": "Florida Orange Blossom Honey",
@@ -1156,7 +1216,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "florida-orange-blossom-honey",
-    "featured": true
+    "featured": true,
+    "purchaseUrl": "https://www.amazon.com/s?k=Tampa+Bay+Honey+Florida+Orange+Blossom+Honey+honey"
   },
   {
     "name": "California Orange Blossom Honey",
@@ -1175,7 +1236,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "california-orange-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bennetts+Honey+Farm+California+Orange+Blossom+Honey+honey"
   },
   {
     "name": "Spanish Orange Blossom Honey",
@@ -1194,7 +1256,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "spanish-orange-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+de+Azahar+Spanish+Orange+Blossom+Honey+honey"
   },
   {
     "name": "Organic Orange Blossom Honey",
@@ -1213,7 +1276,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-orange-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Y.S.+Eco+Bee+Farms+Organic+Orange+Blossom+Honey+honey"
   },
   {
     "name": "Creamed Orange Blossom Honey",
@@ -1232,7 +1296,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "creamed-orange-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Savannah+Bee+Company+Creamed+Orange+Blossom+Honey+honey"
   },
   {
     "name": "Mexican Orange Blossom Honey",
@@ -1251,7 +1316,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "mexican-orange-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+Mexicana+Mexican+Orange+Blossom+Honey+honey"
   },
   {
     "name": "Italian Citrus Blossom Honey",
@@ -1270,7 +1336,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "italian-citrus-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Ferrara+Italian+Citrus+Blossom+Honey+honey"
   },
   {
     "name": "Arizona Orange Blossom Honey",
@@ -1289,7 +1356,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "arizona-orange-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Arizona+Honey+Arizona+Orange+Blossom+Honey+honey"
   },
   {
     "name": "Brazilian Orange Blossom Honey",
@@ -1308,7 +1376,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "brazilian-orange-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Apiario+Brasil+Brazilian+Orange+Blossom+Honey+honey"
   },
   {
     "name": "Greek Orange Blossom Honey",
@@ -1327,7 +1396,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "greek-orange-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Attiki+Greek+Orange+Blossom+Honey+honey"
   },
   {
     "name": "Texas Orange Blossom Honey",
@@ -1346,7 +1416,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "texas-orange-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Lone+Star+Honey+Texas+Orange+Blossom+Honey+honey"
   },
   {
     "name": "Filtered Orange Blossom Honey",
@@ -1365,7 +1436,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "filtered-orange-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Floridas+Natural+Filtered+Orange+Blossom+Honey+honey"
   },
   {
     "name": "Orange Blossom Honeycomb",
@@ -1384,7 +1456,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "orange-blossom-honeycomb",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=California+Bee+Company+Orange+Blossom+Honeycomb+honey"
   },
   {
     "name": "Citrus Grove Honey",
@@ -1403,7 +1476,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "citrus-grove-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bee+Natural+Citrus+Grove+Honey+honey"
   },
   {
     "name": "New York Buckwheat Honey",
@@ -1422,7 +1496,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "new-york-buckwheat-honey",
-    "featured": true
+    "featured": true,
+    "purchaseUrl": "https://www.amazon.com/s?k=Fishers+Honey+New+York+Buckwheat+Honey+honey"
   },
   {
     "name": "Canadian Buckwheat Honey",
@@ -1441,7 +1516,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "canadian-buckwheat-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Canadian+Prairie+Canadian+Buckwheat+Honey+honey"
   },
   {
     "name": "Organic Buckwheat Honey",
@@ -1460,7 +1536,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-buckwheat-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Really+Raw+Honey+Organic+Buckwheat+Honey+honey"
   },
   {
     "name": "Ohio Buckwheat Honey",
@@ -1479,7 +1556,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "ohio-buckwheat-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Millers+Amish+Ohio+Buckwheat+Honey+honey"
   },
   {
     "name": "Minnesota Buckwheat Honey",
@@ -1498,7 +1576,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "minnesota-buckwheat-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Ames+Farm+Minnesota+Buckwheat+Honey+honey"
   },
   {
     "name": "Washington Buckwheat Honey",
@@ -1517,7 +1596,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "washington-buckwheat-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bee+Haven+Washington+Buckwheat+Honey+honey"
   },
   {
     "name": "Michigan Buckwheat Honey",
@@ -1536,7 +1616,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "michigan-buckwheat-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Michigan+Pure+Michigan+Buckwheat+Honey+honey"
   },
   {
     "name": "French Buckwheat Honey",
@@ -1555,7 +1636,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "french-buckwheat-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miellerie+de+Bretagne+French+Buckwheat+Honey+honey"
   },
   {
     "name": "Creamed Buckwheat Honey",
@@ -1574,7 +1656,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "creamed-buckwheat-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Aunt+Sues+Creamed+Buckwheat+Honey+honey"
   },
   {
     "name": "Vermont Buckwheat Honey",
@@ -1593,7 +1676,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "vermont-buckwheat-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Champlain+Valley+Vermont+Buckwheat+Honey+honey"
   },
   {
     "name": "Italian Acacia Honey",
@@ -1612,7 +1696,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "italian-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Rigoni+di+Asiago+Italian+Acacia+Honey+honey"
   },
   {
     "name": "Hungarian Acacia Honey",
@@ -1631,7 +1716,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "hungarian-acacia-honey",
-    "featured": true
+    "featured": true,
+    "purchaseUrl": "https://www.amazon.com/s?k=Hungarian+Apiary+Hungarian+Acacia+Honey+honey"
   },
   {
     "name": "French Acacia Honey",
@@ -1650,7 +1736,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "french-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+de+France+French+Acacia+Honey+honey"
   },
   {
     "name": "Organic Acacia Honey",
@@ -1669,7 +1756,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Alce+Nero+Organic+Acacia+Honey+honey"
   },
   {
     "name": "German Acacia Honey",
@@ -1688,7 +1776,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "german-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Langnese+German+Acacia+Honey+honey"
   },
   {
     "name": "Romanian Acacia Honey",
@@ -1707,7 +1796,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "romanian-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Carpathian+Honey+Romanian+Acacia+Honey+honey"
   },
   {
     "name": "Bulgarian Acacia Honey",
@@ -1726,7 +1816,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "bulgarian-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bulgarian+Gold+Bulgarian+Acacia+Honey+honey"
   },
   {
     "name": "Slovenian Acacia Honey",
@@ -1745,7 +1836,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "slovenian-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Medex+Slovenian+Acacia+Honey+honey"
   },
   {
     "name": "Spanish Acacia Honey",
@@ -1764,7 +1856,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "spanish-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+de+Espana+Spanish+Acacia+Honey+honey"
   },
   {
     "name": "USA Black Locust Honey",
@@ -1783,7 +1876,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "usa-black-locust-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Shenandoah+Valley+USA+Black+Locust+Honey+honey"
   },
   {
     "name": "Creamed Acacia Honey",
@@ -1802,7 +1896,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "creamed-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Magyar+Mez+Creamed+Acacia+Honey+honey"
   },
   {
     "name": "Greek Acacia Honey",
@@ -1821,7 +1916,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "greek-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Attiki+Greek+Acacia+Honey+honey"
   },
   {
     "name": "Ukrainian Acacia Honey",
@@ -1840,7 +1936,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "ukrainian-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Ukrainian+Gold+Ukrainian+Acacia+Honey+honey"
   },
   {
     "name": "Serbian Acacia Honey",
@@ -1859,7 +1956,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "serbian-acacia-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Vojvodina+Honey+Serbian+Acacia+Honey+honey"
   },
   {
     "name": "French Lavender Honey",
@@ -1878,7 +1976,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "french-lavender-honey",
-    "featured": true
+    "featured": true,
+    "purchaseUrl": "https://www.amazon.com/s?k=LAbeille+Occitane+French+Lavender+Honey+honey"
   },
   {
     "name": "Spanish Lavender Honey",
@@ -1897,7 +1996,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "spanish-lavender-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+de+Lavanda+Spanish+Lavender+Honey+honey"
   },
   {
     "name": "California Lavender Honey",
@@ -1916,7 +2016,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "california-lavender-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=California+Lavender+California+Lavender+Honey+honey"
   },
   {
     "name": "Organic Lavender Honey",
@@ -1935,7 +2036,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-lavender-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Famille+Mary+Organic+Lavender+Honey+honey"
   },
   {
     "name": "Bulgarian Lavender Honey",
@@ -1954,7 +2056,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "bulgarian-lavender-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Rose+Valley+Honey+Bulgarian+Lavender+Honey+honey"
   },
   {
     "name": "Italian Lavender Honey",
@@ -1973,7 +2076,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "italian-lavender-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Toscana+Miele+Italian+Lavender+Honey+honey"
   },
   {
     "name": "Oregon Lavender Honey",
@@ -1992,7 +2096,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "oregon-lavender-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Oregon+Growers+Oregon+Lavender+Honey+honey"
   },
   {
     "name": "Australian Lavender Honey",
@@ -2011,7 +2116,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "australian-lavender-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bridestowe+Australian+Lavender+Honey+honey"
   },
   {
     "name": "Creamed Lavender Honey",
@@ -2030,7 +2136,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "creamed-lavender-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Savannah+Bee+Company+Creamed+Lavender+Honey+honey"
   },
   {
     "name": "UK Lavender Honey",
@@ -2049,7 +2156,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "uk-lavender-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Rowse+UK+Lavender+Honey+honey"
   },
   {
     "name": "Florida Tupelo Honey",
@@ -2068,7 +2176,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "florida-tupelo-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Tupelo+Honey+Florida+Tupelo+Honey+honey"
   },
   {
     "name": "Certified Tupelo Honey",
@@ -2087,7 +2196,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "certified-tupelo-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=L.L.+Lanier+&+Sons+Certified+Tupelo+Honey+honey"
   },
   {
     "name": "Georgia Tupelo Honey",
@@ -2106,7 +2216,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "georgia-tupelo-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Savannah+Bee+Company+Georgia+Tupelo+Honey+honey"
   },
   {
     "name": "Premium Tupelo Honey",
@@ -2125,7 +2236,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "premium-tupelo-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Smiley+Honey+Premium+Tupelo+Honey+honey"
   },
   {
     "name": "Organic Tupelo Honey",
@@ -2144,7 +2256,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-tupelo-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Real+Organic+Organic+Tupelo+Honey+honey"
   },
   {
     "name": "California Sage Honey",
@@ -2163,7 +2276,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "california-sage-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=California+Sage+California+Sage+Honey+honey"
   },
   {
     "name": "White Sage Honey",
@@ -2182,7 +2296,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "white-sage-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bee+Happy+White+Sage+Honey+honey"
   },
   {
     "name": "Black Sage Honey",
@@ -2201,7 +2316,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "black-sage-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Santa+Barbara+Honey+Black+Sage+Honey+honey"
   },
   {
     "name": "Purple Sage Honey",
@@ -2220,7 +2336,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "purple-sage-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=High+Desert+Honey+Purple+Sage+Honey+honey"
   },
   {
     "name": "Organic Sage Honey",
@@ -2239,7 +2356,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-sage-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Wild+Mountain+Honey+Organic+Sage+Honey+honey"
   },
   {
     "name": "San Diego Sage Honey",
@@ -2258,7 +2376,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "san-diego-sage-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=San+Diego+Honey+Company+San+Diego+Sage+Honey+honey"
   },
   {
     "name": "Ventura Sage Honey",
@@ -2277,7 +2396,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "ventura-sage-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Ventura+Bees+Ventura+Sage+Honey+honey"
   },
   {
     "name": "Creamed Sage Honey",
@@ -2296,7 +2416,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "creamed-sage-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=California+Bee+Company+Creamed+Sage+Honey+honey"
   },
   {
     "name": "Appalachian Sourwood Honey",
@@ -2315,7 +2436,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "appalachian-sourwood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Sourwood+Apiaries+Appalachian+Sourwood+Honey+honey"
   },
   {
     "name": "North Carolina Sourwood Honey",
@@ -2334,7 +2456,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "north-carolina-sourwood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Blue+Ridge+Honey+Company+North+Carolina+Sourwood+Honey+honey"
   },
   {
     "name": "Georgia Sourwood Honey",
@@ -2353,7 +2476,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "georgia-sourwood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Georgia+Mountain+Honey+Georgia+Sourwood+Honey+honey"
   },
   {
     "name": "Tennessee Sourwood Honey",
@@ -2372,7 +2496,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "tennessee-sourwood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Smoky+Mountain+Honey+Tennessee+Sourwood+Honey+honey"
   },
   {
     "name": "Virginia Sourwood Honey",
@@ -2391,7 +2516,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "virginia-sourwood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Virginia+Highlands+Virginia+Sourwood+Honey+honey"
   },
   {
     "name": "Kentucky Sourwood Honey",
@@ -2410,7 +2536,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "kentucky-sourwood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Kentucky+Bee+Company+Kentucky+Sourwood+Honey+honey"
   },
   {
     "name": "West Virginia Sourwood Honey",
@@ -2429,7 +2556,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "west-virginia-sourwood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Almost+Heaven+Honey+West+Virginia+Sourwood+Honey+honey"
   },
   {
     "name": "Certified Sourwood Honey",
@@ -2448,7 +2576,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "certified-sourwood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=True+Source+Certified+Sourwood+Honey+honey"
   },
   {
     "name": "Australian Eucalyptus Honey",
@@ -2467,7 +2596,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "australian-eucalyptus-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Capilano+Australian+Eucalyptus+Honey+honey"
   },
   {
     "name": "California Eucalyptus Honey",
@@ -2486,7 +2616,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "california-eucalyptus-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Marshalls+Farm+California+Eucalyptus+Honey+honey"
   },
   {
     "name": "Blue Gum Eucalyptus Honey",
@@ -2505,7 +2636,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "blue-gum-eucalyptus-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Beechworth+Honey+Blue+Gum+Eucalyptus+Honey+honey"
   },
   {
     "name": "Red Gum Eucalyptus Honey",
@@ -2524,7 +2656,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "red-gum-eucalyptus-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=South+Australia+Honey+Red+Gum+Eucalyptus+Honey+honey"
   },
   {
     "name": "Yellow Box Eucalyptus Honey",
@@ -2543,7 +2676,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "yellow-box-eucalyptus-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Barnes+Naturals+Yellow+Box+Eucalyptus+Honey+honey"
   },
   {
     "name": "Brazilian Eucalyptus Honey",
@@ -2562,7 +2696,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "brazilian-eucalyptus-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Brasil+Mel+Brazilian+Eucalyptus+Honey+honey"
   },
   {
     "name": "Spanish Eucalyptus Honey",
@@ -2581,7 +2716,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "spanish-eucalyptus-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+de+Galicia+Spanish+Eucalyptus+Honey+honey"
   },
   {
     "name": "Organic Eucalyptus Honey",
@@ -2600,7 +2736,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-eucalyptus-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Buderim+Ginger+Organic+Eucalyptus+Honey+honey"
   },
   {
     "name": "Iron Bark Eucalyptus Honey",
@@ -2619,7 +2756,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "iron-bark-eucalyptus-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Melita+Iron+Bark+Eucalyptus+Honey+honey"
   },
   {
     "name": "Portugal Eucalyptus Honey",
@@ -2638,7 +2776,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "portugal-eucalyptus-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Mel+do+Monte+Portugal+Eucalyptus+Honey+honey"
   },
   {
     "name": "Maine Blueberry Honey",
@@ -2657,7 +2796,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "maine-blueberry-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Swans+Honey+Maine+Blueberry+Honey+honey"
   },
   {
     "name": "Michigan Blueberry Honey",
@@ -2676,7 +2816,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "michigan-blueberry-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Michigan+Honey+Michigan+Blueberry+Honey+honey"
   },
   {
     "name": "New Jersey Blueberry Honey",
@@ -2695,7 +2836,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "new-jersey-blueberry-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Jersey+Fresh+New+Jersey+Blueberry+Honey+honey"
   },
   {
     "name": "Canadian Blueberry Honey",
@@ -2714,7 +2856,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "canadian-blueberry-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Atlantic+Gold+Canadian+Blueberry+Honey+honey"
   },
   {
     "name": "Oregon Blueberry Honey",
@@ -2733,7 +2876,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "oregon-blueberry-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Willamette+Valley+Oregon+Blueberry+Honey+honey"
   },
   {
     "name": "California Avocado Honey",
@@ -2752,7 +2896,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "california-avocado-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=California+Avocado+California+Avocado+Honey+honey"
   },
   {
     "name": "Mexican Avocado Honey",
@@ -2771,7 +2916,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "mexican-avocado-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+de+Aguacate+Mexican+Avocado+Honey+honey"
   },
   {
     "name": "San Diego Avocado Honey",
@@ -2790,7 +2936,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "san-diego-avocado-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=San+Diego+Honey+Company+San+Diego+Avocado+Honey+honey"
   },
   {
     "name": "Organic Avocado Honey",
@@ -2809,7 +2956,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-avocado-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bee+Organic+Organic+Avocado+Honey+honey"
   },
   {
     "name": "Ventura Avocado Honey",
@@ -2828,7 +2976,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "ventura-avocado-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Ventura+Bees+Ventura+Avocado+Honey+honey"
   },
   {
     "name": "German Linden Honey",
@@ -2847,7 +2996,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "german-linden-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Langnese+German+Linden+Honey+honey"
   },
   {
     "name": "Hungarian Linden Honey",
@@ -2866,7 +3016,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "hungarian-linden-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Hungarian+Beekeeping+Hungarian+Linden+Honey+honey"
   },
   {
     "name": "Polish Linden Honey",
@@ -2885,7 +3036,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "polish-linden-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miod+Polski+Polish+Linden+Honey+honey"
   },
   {
     "name": "Russian Linden Honey",
@@ -2904,7 +3056,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "russian-linden-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bashkir+Honey+Russian+Linden+Honey+honey"
   },
   {
     "name": "USA Basswood Honey",
@@ -2923,7 +3076,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "usa-basswood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Honey+Acres+USA+Basswood+Honey+honey"
   },
   {
     "name": "French Linden Honey",
@@ -2942,7 +3096,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "french-linden-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Les+Ruchers+de+France+French+Linden+Honey+honey"
   },
   {
     "name": "Canadian Basswood Honey",
@@ -2961,7 +3116,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "canadian-basswood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Dutchmans+Gold+Canadian+Basswood+Honey+honey"
   },
   {
     "name": "Czech Linden Honey",
@@ -2980,7 +3136,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "czech-linden-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Cesky+Med+Czech+Linden+Honey+honey"
   },
   {
     "name": "Michigan Basswood Honey",
@@ -2999,7 +3156,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "michigan-basswood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Great+Lakes+Honey+Michigan+Basswood+Honey+honey"
   },
   {
     "name": "Organic Linden Honey",
@@ -3018,7 +3176,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-linden-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Dreyers+Organic+Linden+Honey+honey"
   },
   {
     "name": "Italian Chestnut Honey",
@@ -3037,7 +3196,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "italian-chestnut-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Rigoni+di+Asiago+Italian+Chestnut+Honey+honey"
   },
   {
     "name": "Turkish Chestnut Honey",
@@ -3056,7 +3216,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "turkish-chestnut-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Balparmak+Turkish+Chestnut+Honey+honey"
   },
   {
     "name": "French Chestnut Honey",
@@ -3075,7 +3236,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "french-chestnut-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+de+Corse+French+Chestnut+Honey+honey"
   },
   {
     "name": "Spanish Chestnut Honey",
@@ -3094,7 +3256,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "spanish-chestnut-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+de+Galicia+Spanish+Chestnut+Honey+honey"
   },
   {
     "name": "Greek Chestnut Honey",
@@ -3113,7 +3276,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "greek-chestnut-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Meligyris+Greek+Chestnut+Honey+honey"
   },
   {
     "name": "Portuguese Chestnut Honey",
@@ -3132,7 +3296,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "portuguese-chestnut-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Mel+Transmontano+Portuguese+Chestnut+Honey+honey"
   },
   {
     "name": "Organic Chestnut Honey",
@@ -3151,7 +3316,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "organic-chestnut-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Alce+Nero+Organic+Chestnut+Honey+honey"
   },
   {
     "name": "Swiss Chestnut Honey",
@@ -3170,7 +3336,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "swiss-chestnut-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Swiss+Alps+Honey+Swiss+Chestnut+Honey+honey"
   },
   {
     "name": "Scottish Heather Honey",
@@ -3189,7 +3356,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "scottish-heather-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Heather+Hills+Farm+Scottish+Heather+Honey+honey"
   },
   {
     "name": "Welsh Heather Honey",
@@ -3208,7 +3376,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "welsh-heather-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Welsh+Honey+Welsh+Heather+Honey+honey"
   },
   {
     "name": "Irish Heather Honey",
@@ -3227,7 +3396,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "irish-heather-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Irish+Bee+Irish+Heather+Honey+honey"
   },
   {
     "name": "Spanish Heather Honey",
@@ -3246,7 +3416,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "spanish-heather-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+de+Brezo+Spanish+Heather+Honey+honey"
   },
   {
     "name": "Portuguese Heather Honey",
@@ -3265,7 +3436,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "portuguese-heather-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Serra+da+Estrela+Portuguese+Heather+Honey+honey"
   },
   {
     "name": "English Heather Honey",
@@ -3284,7 +3456,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "english-heather-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Rowse+English+Heather+Honey+honey"
   },
   {
     "name": "New Zealand Heather Honey",
@@ -3303,7 +3476,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "new-zealand-heather-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Arataki+New+Zealand+Heather+Honey+honey"
   },
   {
     "name": "Creamed Heather Honey",
@@ -3322,7 +3496,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "creamed-heather-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Highland+Honey+Creamed+Heather+Honey+honey"
   },
   {
     "name": "Hawaiian Macadamia Blossom Honey",
@@ -3341,7 +3516,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "hawaiian-macadamia-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Big+Island+Bees+Hawaiian+Macadamia+Blossom+Honey+honey"
   },
   {
     "name": "Coffee Blossom Honey",
@@ -3360,7 +3536,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "coffee-blossom-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Guatemala+Gold+Coffee+Blossom+Honey+honey"
   },
   {
     "name": "Hawaiian Kiawe Honey",
@@ -3379,7 +3556,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "hawaiian-kiawe-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Rare+Hawaiian+Hawaiian+Kiawe+Honey+honey"
   },
   {
     "name": "Hawaiian Lehua Honey",
@@ -3398,7 +3576,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "hawaiian-lehua-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Big+Island+Bees+Hawaiian+Lehua+Honey+honey"
   },
   {
     "name": "Sidr Honey - Yemen",
@@ -3417,7 +3596,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "sidr-honey-yemen",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Yemeni+Gold+Sidr+Honey+-+Yemen+honey"
   },
   {
     "name": "Greek Thyme Honey",
@@ -3436,7 +3616,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "greek-thyme-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Meligyris+Greek+Thyme+Honey+honey"
   },
   {
     "name": "Spanish Rosemary Honey",
@@ -3455,7 +3636,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "spanish-rosemary-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miel+de+Romero+Spanish+Rosemary+Honey+honey"
   },
   {
     "name": "Turkish Pine Honey",
@@ -3474,7 +3656,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "turkish-pine-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Balparmak+Turkish+Pine+Honey+honey"
   },
   {
     "name": "Italian Sulla Honey",
@@ -3493,7 +3676,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "italian-sulla-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Ferrara+Italian+Sulla+Honey+honey"
   },
   {
     "name": "Mexican Mesquite Honey",
@@ -3512,7 +3696,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "mexican-mesquite-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Sonoran+Honey+Mexican+Mesquite+Honey+honey"
   },
   {
     "name": "Arizona Mesquite Honey",
@@ -3531,7 +3716,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "arizona-mesquite-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Arizona+Desert+Arizona+Mesquite+Honey+honey"
   },
   {
     "name": "New Zealand Rata Honey",
@@ -3550,7 +3736,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "new-zealand-rata-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Arataki+New+Zealand+Rata+Honey+honey"
   },
   {
     "name": "New Zealand Kamahi Honey",
@@ -3569,7 +3756,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "new-zealand-kamahi-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Comvita+New+Zealand+Kamahi+Honey+honey"
   },
   {
     "name": "Australian Leatherwood Honey",
@@ -3588,7 +3776,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "australian-leatherwood-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Tasmanian+Leatherwood+Australian+Leatherwood+Honey+honey"
   },
   {
     "name": "New Zealand Tawari Honey",
@@ -3607,7 +3796,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "new-zealand-tawari-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Manuka+Health+New+Zealand+Tawari+Honey+honey"
   },
   {
     "name": "Meadowfoam Honey - Oregon",
@@ -3626,7 +3816,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "meadowfoam-honey-oregon",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bee+Local+Meadowfoam+Honey+-+Oregon+honey"
   },
   {
     "name": "Fireweed Honey - Alaska",
@@ -3645,7 +3836,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "fireweed-honey-alaska",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Alaska+Wild+Fireweed+Honey+-+Alaska+honey"
   },
   {
     "name": "Canadian Fireweed Honey",
@@ -3664,7 +3856,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "canadian-fireweed-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=BC+Honey+Canadian+Fireweed+Honey+honey"
   },
   {
     "name": "Star Thistle Honey - California",
@@ -3683,7 +3876,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "star-thistle-honey-california",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Sacramento+Bee+Star+Thistle+Honey+-+California+honey"
   },
   {
     "name": "Tulip Poplar Honey - Tennessee",
@@ -3702,7 +3896,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "tulip-poplar-honey-tennessee",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Tennessee+Bees+Tulip+Poplar+Honey+-+Tennessee+honey"
   },
   {
     "name": "Gallberry Honey - Florida",
@@ -3721,7 +3916,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "gallberry-honey-florida",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Florida+Gold+Gallberry+Honey+-+Florida+honey"
   },
   {
     "name": "Saw Palmetto Honey - Florida",
@@ -3740,7 +3936,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "saw-palmetto-honey-florida",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bee+Natural+Florida+Saw+Palmetto+Honey+-+Florida+honey"
   },
   {
     "name": "Cotton Honey - Texas",
@@ -3759,7 +3956,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "cotton-honey-texas",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Texas+Plains+Cotton+Honey+-+Texas+honey"
   },
   {
     "name": "Sunflower Honey - France",
@@ -3778,7 +3976,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "sunflower-honey-france",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Miels+du+Sud+Sunflower+Honey+-+France+honey"
   },
   {
     "name": "Alfalfa Honey - Argentina",
@@ -3797,7 +3996,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "alfalfa-honey-argentina",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Patagonia+Alfalfa+Honey+-+Argentina+honey"
   },
   {
     "name": "USA Alfalfa Honey",
@@ -3816,7 +4016,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "usa-alfalfa-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Western+Gold+USA+Alfalfa+Honey+honey"
   },
   {
     "name": "Greek Pine Honey",
@@ -3835,7 +4036,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "greek-pine-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Attiki+Greek+Pine+Honey+honey"
   },
   {
     "name": "German Forest Honey",
@@ -3854,7 +4056,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "german-forest-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Langnese+German+Forest+Honey+honey"
   },
   {
     "name": "Austrian Alpine Honey",
@@ -3873,7 +4076,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "austrian-alpine-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Austrian+Alps+Austrian+Alpine+Honey+honey"
   },
   {
     "name": "Swiss Alpine Flower Honey",
@@ -3892,7 +4096,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "swiss-alpine-flower-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Swiss+Mountains+Swiss+Alpine+Flower+Honey+honey"
   },
   {
     "name": "Hot Honey - Infused",
@@ -3911,7 +4116,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "hot-honey-infused",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Mikes+Hot+Honey+Hot+Honey+-+Infused+honey"
   },
   {
     "name": "Truffle Honey - Italy",
@@ -3930,7 +4136,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "truffle-honey-italy",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Urbani+Truffle+Honey+-+Italy+honey"
   },
   {
     "name": "Cinnamon Infused Honey",
@@ -3949,7 +4156,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "cinnamon-infused-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Savannah+Bee+Company+Cinnamon+Infused+Honey+honey"
   },
   {
     "name": "Lemon Ginger Honey",
@@ -3968,7 +4176,8 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "lemon-ginger-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Bee+Well+Lemon+Ginger+Honey+honey"
   },
   {
     "name": "Bourbon Barrel Aged Honey",
@@ -3987,6 +4196,7 @@
     "umfRating": null,
     "mgoRating": null,
     "slug": "bourbon-barrel-aged-honey",
-    "featured": false
+    "featured": false,
+    "purchaseUrl": "https://www.amazon.com/s?k=Kentucky+Bee+Bourbon+Barrel+Aged+Honey+honey"
   }
 ]
