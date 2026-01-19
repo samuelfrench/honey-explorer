@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-01-17)
 
 **Core value:** Users can discover honey varieties and find local sources
-**Current focus:** Phase 4 - Visual Design System (ready to plan)
+**Current focus:** Phase 5 - Core Discovery (ready to plan)
 
 ## Current Position
 
-Phase: 4 of 10 (Visual Design System)
-Plan: 0 of 2 in current phase
+Phase: 5 of 10 (Core Discovery)
+Plan: 0 of 4 in current phase
 Status: Ready to plan
-Last activity: 2026-01-18 - Completed Phase 3 (Data Seeding)
+Last activity: 2026-01-18 - Completed Phase 4 (Visual Design System)
 
-Progress: [===-------] 30%
+Progress: [====------] 40%
 
 ### Phase 1 Complete
 - 2 plans executed
@@ -33,12 +33,20 @@ Progress: [===-------] 30%
 - Images uploaded to Cloudflare R2 CDN
 - Cost: ~$0.89
 
+### Phase 4 Complete
+- 2 plans executed
+- Honey color palette and comb browns configured
+- Component library: Card, Badge, Button, Skeleton, Spinner
+- Layout components: Container, Section
+- Lucide React icons integrated
+- Google Fonts: Inter + Playfair Display
+
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 7
-- Average duration: 9 min
-- Total execution time: 61 min
+- Total plans completed: 9
+- Average duration: 8 min
+- Total execution time: 71 min
 
 **By Phase:**
 
@@ -47,10 +55,11 @@ Progress: [===-------] 30%
 | 01-infrastructure | 2 | 20 min | 10 min |
 | 02-data-foundation | 2 | 6 min | 3 min |
 | 03-data-seeding | 3 | 35 min | 12 min |
+| 04-visual-design | 2 | 10 min | 5 min |
 
 **Recent Trend:**
-- Last 5 plans: 02-02 (4 min), 03-01 (3 min), 03-02 (12 min), 03-03 (20 min)
-- Trend: Image generation longer due to API calls and uploads
+- Last 5 plans: 03-01 (3 min), 03-02 (12 min), 03-03 (20 min), 04-01 (5 min), 04-02 (5 min)
+- Trend: Component work faster than data curation
 
 *Updated after each plan completion*
 
@@ -84,6 +93,11 @@ Recent decisions affecting current work:
 - [03-02]: Idempotent seeding - skips if database already has data
 - [03-02]: Conditional seeding via seed.data.enabled property (default false)
 - [03-02]: Placeholder image URLs following CDN pattern
+- [03-03]: Switched to fal.ai from Replicate (faster, no zombie predictions)
+- [04-01]: Tailwind v4 CSS-first @theme configuration for colors/fonts/shadows
+- [04-01]: Google Fonts: Inter (body) + Playfair Display (headings)
+- [04-02]: Component library with Card, Badge, Button, Skeleton, Spinner
+- [04-02]: Layout components: Container, Section with responsive padding
 
 ### Pending Todos
 
@@ -96,7 +110,7 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-01-18T21:45:00Z
-Stopped at: Completed Phase 3 (Data Seeding) - all 295 images generated
+Last session: 2026-01-18T22:15:00Z
+Stopped at: Completed Phase 4 (Visual Design System) - component library done
 Resume file: None
-Next: Plan and execute Phase 4 (Visual Design System)
+Next: Plan and execute Phase 5 (Core Discovery)
