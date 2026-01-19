@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import Replicate from 'replicate';
+import { fal } from '@fal-ai/client';
 import { S3Client, PutObjectCommand, HeadObjectCommand } from '@aws-sdk/client-s3';
 import { readFile, writeFile } from 'fs/promises';
 import { fileURLToPath } from 'url';
@@ -8,19 +8,20 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Configuration
+// Configuration - using fal.ai (faster, no zombie prediction issues)
 const CONFIG = {
-  replicateModel: 'black-forest-labs/flux-schnell',
-  delayBetweenRequests: 500, // ms
+  model: 'fal-ai/flux/schnell',
+  delayBetweenRequests: 1000, // ms - fal.ai has better rate limits
   maxRetries: 3,
-  retryDelay: 2000, // ms
+  retryDelay: 5000, // ms
 };
 
-// Initialize clients
-const replicate = new Replicate({
-  auth: process.env.REPLICATE_API_TOKEN,
+// Initialize fal.ai client
+fal.config({
+  credentials: process.env.FAL_KEY,
 });
 
+// Initialize S3 client for R2
 const s3Client = new S3Client({
   region: 'auto',
   endpoint: `https://${process.env.R2_ACCOUNT_ID}.r2.cloudflarestorage.com`,
@@ -113,47 +114,40 @@ async function checkImageExists(key) {
   }
 }
 
+// Map aspect ratios to fal.ai image_size values
+function getImageSize(aspectRatio) {
+  const sizeMap = {
+    '4:5': 'portrait_4_3',   // closest to 4:5
+    '16:9': 'landscape_16_9',
+    '1:1': 'square',
+  };
+  return sizeMap[aspectRatio] || 'square';
+}
+
 async function generateImage(prompt, aspectRatio = '4:5') {
   for (let attempt = 1; attempt <= CONFIG.maxRetries; attempt++) {
     try {
-      const output = await replicate.run(CONFIG.replicateModel, {
+      const result = await fal.subscribe(CONFIG.model, {
         input: {
           prompt,
-          aspect_ratio: aspectRatio,
-          output_format: 'webp',
-          output_quality: 85,
+          image_size: getImageSize(aspectRatio),
+          num_inference_steps: 4,
+          num_images: 1,
+          enable_safety_checker: false,
         },
       });
 
-      // FLUX schnell returns array of file URLs or ReadableStream
-      if (Array.isArray(output) && output.length > 0) {
-        const imageUrl = output[0];
-        // Download the image immediately (Replicate URLs expire in 1 hour)
+      if (result.data?.images?.length > 0) {
+        const imageUrl = result.data.images[0].url;
+        // Download the image
         const response = await fetch(imageUrl);
-        if (!response.ok) {
-          throw new Error(`Failed to download image: ${response.status}`);
-        }
-        return Buffer.from(await response.arrayBuffer());
-      } else if (output instanceof ReadableStream || (output && typeof output.getReader === 'function')) {
-        // Handle ReadableStream
-        const reader = output.getReader();
-        const chunks = [];
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          chunks.push(value);
-        }
-        return Buffer.concat(chunks);
-      } else if (typeof output === 'string') {
-        // Direct URL
-        const response = await fetch(output);
         if (!response.ok) {
           throw new Error(`Failed to download image: ${response.status}`);
         }
         return Buffer.from(await response.arrayBuffer());
       }
 
-      throw new Error('Unexpected output format from Replicate');
+      throw new Error('No image in response');
     } catch (error) {
       console.error(`  Attempt ${attempt}/${CONFIG.maxRetries} failed: ${error.message}`);
       if (attempt < CONFIG.maxRetries) {
@@ -177,10 +171,10 @@ async function uploadToR2(buffer, key) {
 
 // Main workflow
 async function main() {
-  console.log('=== Honey Explorer Image Generation ===\n');
+  console.log('=== Honey Explorer Image Generation (fal.ai) ===\n');
 
   // Validate environment
-  const requiredEnvVars = ['REPLICATE_API_TOKEN', 'R2_ACCOUNT_ID', 'R2_ACCESS_KEY', 'R2_SECRET_KEY', 'R2_BUCKET_NAME', 'R2_PUBLIC_URL'];
+  const requiredEnvVars = ['FAL_KEY', 'R2_ACCOUNT_ID', 'R2_ACCESS_KEY', 'R2_SECRET_KEY', 'R2_BUCKET_NAME', 'R2_PUBLIC_URL'];
   for (const envVar of requiredEnvVars) {
     if (!process.env[envVar]) {
       console.error(`Missing required environment variable: ${envVar}`);
@@ -366,7 +360,7 @@ async function main() {
     }
   }
 
-  // Estimated cost
+  // Estimated cost (fal.ai FLUX schnell is ~$0.003/image)
   const estimatedCost = (generated * 0.003).toFixed(2);
   console.log(`\nEstimated cost: $${estimatedCost}`);
 }

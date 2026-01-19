@@ -6,8 +6,9 @@
     "generate": "node generate-images.js"
   },
   "dependencies": {
-    "replicate": "^0.25.0",
     "@aws-sdk/client-s3": "^3.500.0",
-    "dotenv": "^16.3.0"
+    "@fal-ai/client": "^1.8.3",
+    "dotenv": "^16.3.0",
+    "replicate": "^0.25.0"
   }
 }
