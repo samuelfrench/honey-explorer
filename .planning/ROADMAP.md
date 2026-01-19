@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Infrastructure Foundation** - Project scaffolding, deployment pipeline, database setup ✓
 - [x] **Phase 2: Data Foundation** - Taxonomy definition, data models, verification metadata ✓
-- [ ] **Phase 3: Data Seeding** - 200+ honeys with images, 50+ local sources with photos
+- [x] **Phase 3: Data Seeding** - 200+ honeys with images, 50+ local sources with photos ✓
 - [ ] **Phase 4: Visual Design System** - Honey color palette, component library, animations
 - [ ] **Phase 5: Core Discovery** - Browse, filter, search, detail pages with visual-first layout
 - [ ] **Phase 6: Local Finder** - Map with markers, producer profiles, events carousel on homepage
@@ -73,19 +73,23 @@ Plans:
 **Depends on**: Phase 2
 **Requirements**: DATA-02, DATA-03, DATA-06
 **Complexity**: L
-**Image Strategy**: Use Replicate API (FLUX/SDXL models) to generate high-quality product photography for honeys without existing photos. Generate hero images for each honey type and origin region.
+**Image Strategy**: Used fal.ai FLUX schnell to generate high-quality product photography and hero images.
 **Success Criteria** (what must be TRUE):
-  1. Database contains 200+ honey varieties with complete metadata
-  2. Each honey has a high-quality image (Replicate-generated or stock)
-  3. Database contains 50+ local sources (beekeepers, farms, markets) with photos
-  4. Hero images generated via Replicate for each major honey type and origin region
-  5. All seeded data includes "last verified" timestamp
+  1. Database contains 200+ honey varieties with complete metadata ✓
+  2. Each honey has a high-quality image (AI-generated) ✓
+  3. Database contains 50+ local sources (beekeepers, farms, markets) with photos ✓
+  4. Hero images generated for each major honey type and origin region ✓
+  5. All seeded data includes "last verified" timestamp ✓
 **Plans**: 3 plans
 
 Plans:
-- [ ] 03-01-PLAN.md — Cloudflare R2 setup and Java integration
-- [ ] 03-02-PLAN.md — Data curation and seeder infrastructure (200+ honeys, 50+ sources)
-- [ ] 03-03-PLAN.md — Replicate image generation and CDN finalization
+- [x] 03-01-PLAN.md — Cloudflare R2 setup and Java integration ✓
+- [x] 03-02-PLAN.md — Data curation and seeder infrastructure (210 honeys, 52 sources) ✓
+- [x] 03-03-PLAN.md — fal.ai image generation and CDN finalization (295 images) ✓
+
+**Completed:** 2026-01-18
+**Image Stats:** 17 floral heroes + 16 origin heroes + 210 honeys + 52 local sources = 295 images
+**Cost:** ~$0.89 via fal.ai FLUX schnell
 
 ---
 
@@ -287,8 +291,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 |-------|----------------|--------|-----------|
 | 1. Infrastructure Foundation | 2/2 | Complete | 2026-01-17 |
 | 2. Data Foundation | 2/2 | Complete | 2026-01-17 |
-| 3. Data Seeding | 0/3 | Ready | - |
-| 4. Visual Design System | 0/2 | Not started | - |
+| 3. Data Seeding | 3/3 | Complete | 2026-01-18 |
+| 4. Visual Design System | 0/2 | Ready | - |
 | 5. Core Discovery | 0/4 | Not started | - |
 | 6. Local Finder | 0/3 | Not started | - |
 | 7. AI Recommendations | 0/2 | Not started | - |
@@ -301,4 +305,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 
 ---
 *Roadmap created: 2026-01-17*
-*Last updated: 2026-01-17*
+*Last updated: 2026-01-18*
