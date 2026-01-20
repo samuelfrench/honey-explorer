@@ -15,11 +15,12 @@
 
 import Anthropic from '@anthropic-ai/sdk';
 import pg from 'pg';
-import { Resend } from 'resend';
+import nodemailer from 'nodemailer';
 import crypto from 'crypto';
 
 // Configuration
 const RECIPIENT_EMAIL = 'samfrench@gmail.com'; // Allowlisted recipient only
+const SENDER_EMAIL = 'sam@mycoffeeexplorer.com'; // Gmail/Google Workspace sender
 const MAX_EVENTS_PER_QUERY = 10;
 const SEARCH_DELAY_MS = 2000; // Rate limiting between searches
 
@@ -439,23 +440,36 @@ function generateEmailReport(newEvents, skippedDuplicates, validationErrors, sys
 }
 
 /**
- * Send email report via Resend
+ * Send email report via Gmail SMTP
  */
-async function sendReport(resend, html, newCount, errorCount) {
+async function sendReport(transporter, html, newCount, errorCount) {
   const subject = errorCount > 0
     ? `[Honey Explorer] Event Discovery: ${newCount} new, ${errorCount} errors`
     : newCount > 0
       ? `[Honey Explorer] Event Discovery: ${newCount} new events found`
       : `[Honey Explorer] Event Discovery: No new events this week`;
 
-  await resend.emails.send({
-    from: 'Honey Explorer <onboarding@resend.dev>', // Use Resend's default sender for free tier
+  await transporter.sendMail({
+    from: `Honey Explorer <${SENDER_EMAIL}>`,
     to: RECIPIENT_EMAIL,
     subject,
     html
   });
 
   console.log(`Email sent to ${RECIPIENT_EMAIL}`);
+}
+
+/**
+ * Create Gmail SMTP transporter
+ */
+function createMailTransporter() {
+  return nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: SENDER_EMAIL,
+      pass: process.env.GMAIL_APP_PASSWORD
+    }
+  });
 }
 
 /**
@@ -473,7 +487,7 @@ async function main() {
 
   try {
     // Validate environment
-    const requiredEnv = ['ANTHROPIC_API_KEY', 'DATABASE_URL', 'RESEND_API_KEY'];
+    const requiredEnv = ['ANTHROPIC_API_KEY', 'DATABASE_URL', 'GMAIL_APP_PASSWORD'];
     for (const key of requiredEnv) {
       if (!process.env[key]) {
         throw new Error(`Missing required environment variable: ${key}`);
@@ -485,7 +499,7 @@ async function main() {
       apiKey: process.env.ANTHROPIC_API_KEY
     });
 
-    const resend = new Resend(process.env.RESEND_API_KEY);
+    const mailTransporter = createMailTransporter();
 
     // Connect to database
     client = new pg.Client({
@@ -548,7 +562,7 @@ async function main() {
 
     // Generate and send report
     const html = generateEmailReport(newEvents, skippedDuplicates, validationErrors, systemErrors);
-    await sendReport(resend, html, newEvents.length, validationErrors.length + systemErrors.length);
+    await sendReport(mailTransporter, html, newEvents.length, validationErrors.length + systemErrors.length);
 
     console.log('Event discovery completed successfully');
 
@@ -558,9 +572,9 @@ async function main() {
 
     // Try to send error report
     try {
-      const resend = new Resend(process.env.RESEND_API_KEY);
+      const errorTransporter = createMailTransporter();
       const html = generateEmailReport([], 0, validationErrors, systemErrors);
-      await sendReport(resend, html, 0, systemErrors.length);
+      await sendReport(errorTransporter, html, 0, systemErrors.length);
     } catch (emailError) {
       console.error('Failed to send error report:', emailError.message);
     }
