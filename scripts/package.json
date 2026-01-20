@@ -1,14 +1,18 @@
 {
-  "name": "honey-explorer-image-gen",
+  "name": "honey-explorer-scripts",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "generate": "node generate-images.js"
+    "generate": "node generate-images.js",
+    "discover-events": "node discover-events.js"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.0",
     "@aws-sdk/client-s3": "^3.500.0",
     "@fal-ai/client": "^1.8.3",
     "dotenv": "^16.3.0",
-    "replicate": "^0.25.0"
+    "pg": "^8.13.0",
+    "replicate": "^0.25.0",
+    "resend": "^4.0.0"
   }
 }
