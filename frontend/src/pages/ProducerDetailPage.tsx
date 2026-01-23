@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, MapPin, Phone, Mail, Globe, Instagram, Facebook, Clock } from 'lucide-react';
 import { Container, Section } from '../components/layout';
 import { Badge, Button, Spinner } from '../components/ui';
-import { SEO } from '../components/seo';
+import { SEO, JsonLd, createLocalBusinessSchema } from '../components/seo';
 import { localSourceApi, type LocalSource } from '../services/api';
 
 interface BusinessHours {
@@ -109,6 +109,23 @@ export function ProducerDetailPage() {
         image={source.heroImageUrl || source.thumbnailUrl || undefined}
         url={`/local/${source.slug}`}
         type="website"
+      />
+      <JsonLd
+        data={createLocalBusinessSchema({
+          name: source.name,
+          description: source.description || undefined,
+          image: source.heroImageUrl || source.thumbnailUrl || undefined,
+          address: source.address || undefined,
+          city: source.city || undefined,
+          state: source.state || undefined,
+          zipCode: source.zipCode || undefined,
+          phone: source.phone || undefined,
+          email: source.email || undefined,
+          website: source.website || undefined,
+          latitude: source.latitude ?? undefined,
+          longitude: source.longitude ?? undefined,
+          url: `/local/${source.slug}`,
+        })}
       />
       <div className="min-h-screen bg-cream">
         <Section padding="md">

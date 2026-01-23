@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "generate": "node generate-images.js",
-    "discover-events": "node discover-events.js"
+    "discover-events": "node discover-events.js",
+    "generate-cities": "node generate-city-content.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.32.0",

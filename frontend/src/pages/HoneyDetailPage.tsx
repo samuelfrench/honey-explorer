@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { Container, Section } from '../components/layout';
 import { Badge, Button, Spinner } from '../components/ui';
-import { SEO } from '../components/seo';
+import { SEO, JsonLd, createProductSchema } from '../components/seo';
 import { honeyApi, type Honey } from '../services/api';
 
 export function HoneyDetailPage() {
@@ -74,6 +74,17 @@ export function HoneyDetailPage() {
         image={honey.imageUrl}
         url={`/honey/${honey.slug}`}
         type="product"
+      />
+      <JsonLd
+        data={createProductSchema({
+          name: honey.name,
+          description: honey.description || undefined,
+          image: honey.imageUrl || undefined,
+          brand: honey.brand || undefined,
+          priceMin: honey.priceMin ?? undefined,
+          priceMax: honey.priceMax ?? undefined,
+          url: `/honey/${honey.slug}`,
+        })}
       />
       <div className="min-h-screen bg-cream">
         <Section padding="md">

@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import { Header } from './components/layout';
-import { HomePage, BrowsePage, HoneyDetailPage, LocalSourcesPage, ProducerDetailPage, EventsPage, EventDetailPage } from './pages';
+import { HomePage, BrowsePage, HoneyDetailPage, LocalSourcesPage, ProducerDetailPage, EventsPage, EventDetailPage, CityPage } from './pages';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
           <Route path="/local/:slug" element={<ProducerDetailPage />} />
           <Route path="/events" element={<EventsPage />} />
           <Route path="/events/:slug" element={<EventDetailPage />} />
+          <Route path="/honey-near/:slug" element={<CityPage />} />
         </Routes>
       </main>
     </div>

@@ -90,4 +90,15 @@ public class EventService {
     public long count() {
         return eventRepository.count();
     }
+
+    /**
+     * Get upcoming events in a specific state.
+     */
+    public List<EventDTO> findByState(String state) {
+        return eventRepository.findByStateAndIsActiveTrue(state)
+                .stream()
+                .filter(e -> e.getStartDate().isAfter(LocalDate.now().minusDays(1)))
+                .map(EventDTO::from)
+                .toList();
+    }
 }

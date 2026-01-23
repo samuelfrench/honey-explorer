@@ -5,7 +5,7 @@ import { Container, Section } from '../components/layout';
 import { Button, SkeletonCard } from '../components/ui';
 import { HoneyCard } from '../components/honey';
 import { EventsCarousel } from '../components/events';
-import { SEO } from '../components/seo';
+import { SEO, JsonLd, createWebSiteSchema, createOrganizationSchema } from '../components/seo';
 import { honeyApi, type Honey } from '../services/api';
 
 export function HomePage() {
@@ -37,6 +37,8 @@ export function HomePage() {
         description="Discover over 200 varieties of honey from around the world. Find local sources, compare flavors, and explore the fascinating world of honey."
         url="/"
       />
+      <JsonLd data={createWebSiteSchema()} />
+      <JsonLd data={createOrganizationSchema()} />
       <div className="min-h-screen bg-cream">
         {/* Hero Section */}
       <Section padding="lg" background="honey">

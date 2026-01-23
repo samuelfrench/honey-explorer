@@ -206,6 +206,46 @@ export const eventApi = {
     api.get<number>('/events/count'),
 };
 
+export interface CityContent {
+  id: string;
+  city: string;
+  state: string;
+  slug: string;
+  latitude: number | null;
+  longitude: number | null;
+  introText: string | null;
+  honeyFacts: string | null;
+  buyingTips: string | null;
+  bestSeasons: string | null;
+  faqJson: string | null;
+  validated: boolean;
+  validationScore: number | null;
+  nearbySourcesCount: number;
+  upcomingEventsCount: number;
+}
+
+export interface FAQ {
+  question: string;
+  answer: string;
+}
+
+export const cityApi = {
+  getAll: () =>
+    api.get<CityContent[]>('/cities'),
+
+  getBySlug: (slug: string) =>
+    api.get<CityContent>(`/cities/${slug}`),
+
+  getSources: (slug: string, page = 0, size = 12, radius = 50) =>
+    api.get<Page<LocalSource>>(`/cities/${slug}/sources`, { params: { page, size, radius } }),
+
+  getEvents: (slug: string) =>
+    api.get<Event[]>(`/cities/${slug}/events`),
+
+  getCount: () =>
+    api.get<number>('/cities/count'),
+};
+
 export const localSourceApi = {
   browse: (params: LocalSourceBrowseParams = {}) => {
     const queryParams: Record<string, string | string[] | number | boolean> = {};

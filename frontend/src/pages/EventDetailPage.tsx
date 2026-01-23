@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, MapPin, ExternalLink } from 'lucide-react';
 import { Container, Section } from '../components/layout';
 import { Badge, Button, Spinner } from '../components/ui';
-import { SEO } from '../components/seo';
+import { SEO, JsonLd, createEventSchema } from '../components/seo';
 import { eventApi, type Event } from '../services/api';
 
 const eventTypeColors: Record<string, string> = {
@@ -114,6 +114,21 @@ export function EventDetailPage() {
         image={event.imageUrl || event.thumbnailUrl || undefined}
         url={`/events/${event.slug}`}
         type="website"
+      />
+      <JsonLd
+        data={createEventSchema({
+          name: event.name,
+          description: event.description || undefined,
+          image: event.imageUrl || event.thumbnailUrl || undefined,
+          startDate: event.startDate,
+          endDate: event.endDate,
+          address: event.address || undefined,
+          city: event.city || undefined,
+          state: event.state || undefined,
+          url: `/events/${event.slug}`,
+          eventUrl: event.link || undefined,
+          organizer: event.localSourceName || undefined,
+        })}
       />
       <div className="min-h-screen bg-cream">
         <Section padding="md">
