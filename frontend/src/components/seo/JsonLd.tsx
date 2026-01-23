@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 
 interface JsonLdProps {
   data: Record<string, unknown>;
@@ -9,26 +9,35 @@ interface JsonLdProps {
  * Used for SEO schema markup (Product, LocalBusiness, Event, etc.)
  */
 export function JsonLd({ data }: JsonLdProps) {
+  const jsonString = JSON.stringify(data);
+  const scriptRef = useRef<HTMLScriptElement | null>(null);
+
   useEffect(() => {
-    // Create script element
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.text = JSON.stringify(data);
     const schemaType = (data['@type'] as string) || 'schema';
-    script.id = 'json-ld-' + schemaType;
+    const scriptId = 'json-ld-' + schemaType;
 
     // Remove any existing JSON-LD with same type
-    const existingScript = document.getElementById(script.id);
+    const existingScript = document.getElementById(scriptId);
     if (existingScript) {
       existingScript.remove();
     }
 
+    // Create script element
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = scriptId;
+    script.text = jsonString;
+
     document.head.appendChild(script);
+    scriptRef.current = script;
 
     return () => {
-      script.remove();
+      // Only remove if this script still exists and matches what we created
+      if (scriptRef.current && document.head.contains(scriptRef.current)) {
+        scriptRef.current.remove();
+      }
     };
-  }, [data]);
+  }, [jsonString, data]);
 
   return null;
 }
