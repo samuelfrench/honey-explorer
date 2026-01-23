@@ -378,7 +378,7 @@ function generateEmailReport(newEvents, skippedDuplicates, validationErrors, sys
 </head>
 <body>
   <div class="container">
-    <h1>Honey Explorer Event Discovery</h1>
+    <h1>Raw Honey Guide Event Discovery</h1>
     <p class="subtitle">Weekly Report - ${new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</p>
 
     <div class="stats">
@@ -429,9 +429,9 @@ function generateEmailReport(newEvents, skippedDuplicates, validationErrors, sys
     ` : ''}
 
     <div class="footer">
-      <p>This is an automated report from Honey Explorer event discovery.</p>
+      <p>This is an automated report from Raw Honey Guide event discovery.</p>
       <p>Events added via AI discovery require manual verification before being marked as verified.</p>
-      <p>View all events: <a href="https://honey-explorer.fly.dev/events">honey-explorer.fly.dev/events</a></p>
+      <p>View all events: <a href="https://rawhoneyguide.com/events">rawhoneyguide.com/events</a></p>
     </div>
   </div>
 </body>
@@ -444,13 +444,13 @@ function generateEmailReport(newEvents, skippedDuplicates, validationErrors, sys
  */
 async function sendReport(transporter, html, newCount, errorCount) {
   const subject = errorCount > 0
-    ? `[Honey Explorer] Event Discovery: ${newCount} new, ${errorCount} errors`
+    ? `[Raw Honey Guide] Event Discovery: ${newCount} new, ${errorCount} errors`
     : newCount > 0
-      ? `[Honey Explorer] Event Discovery: ${newCount} new events found`
-      : `[Honey Explorer] Event Discovery: No new events this week`;
+      ? `[Raw Honey Guide] Event Discovery: ${newCount} new events found`
+      : `[Raw Honey Guide] Event Discovery: No new events this week`;
 
   await transporter.sendMail({
-    from: `Honey Explorer <${SENDER_EMAIL}>`,
+    from: `Raw Honey Guide <${SENDER_EMAIL}>`,
     to: RECIPIENT_EMAIL,
     subject,
     html

@@ -33,7 +33,7 @@ export function HomePage() {
   return (
     <>
       <SEO
-        title="Honey Explorer"
+        title="Raw Honey Guide"
         description="Discover over 200 varieties of honey from around the world. Find local sources, compare flavors, and explore the fascinating world of honey."
         url="/"
       />

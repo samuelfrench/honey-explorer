@@ -11,7 +11,7 @@ export function Header() {
           <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Droplet className="w-8 h-8 text-honey-500 fill-honey-200" />
             <span className="font-display text-xl font-bold text-honey-800">
-              Honey Explorer
+              Raw Honey Guide
             </span>
           </Link>
 

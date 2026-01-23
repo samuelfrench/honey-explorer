@@ -8,8 +8,8 @@ interface SEOProps {
   type?: 'website' | 'product';
 }
 
-const BASE_TITLE = 'Honey Explorer';
-const BASE_URL = 'https://honey-explorer.fly.dev';
+const BASE_TITLE = 'Raw Honey Guide';
+const BASE_URL = 'https://rawhoneyguide.com';
 const DEFAULT_IMAGE = `${BASE_URL}/og-image.png`;
 
 export function SEO({ title, description, image, url, type = 'website' }: SEOProps) {
