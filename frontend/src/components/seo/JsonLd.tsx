@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect } from 'react';
 
 interface JsonLdProps {
   data: Record<string, unknown>;
@@ -7,36 +7,37 @@ interface JsonLdProps {
 /**
  * Component to inject JSON-LD structured data into the page.
  * Used for SEO schema markup (Product, LocalBusiness, Event, etc.)
+ *
+ * Note: Scripts are not removed on cleanup to avoid race conditions during
+ * React re-renders. They are updated in place when data changes and
+ * automatically removed when navigating to a new page (since they're in the head).
  */
 export function JsonLd({ data }: JsonLdProps) {
   const jsonString = JSON.stringify(data);
-  const scriptRef = useRef<HTMLScriptElement | null>(null);
 
   useEffect(() => {
     const schemaType = (data['@type'] as string) || 'schema';
     const scriptId = 'json-ld-' + schemaType;
 
-    // Remove any existing JSON-LD with same type
-    const existingScript = document.getElementById(scriptId);
-    if (existingScript) {
-      existingScript.remove();
+    // Check for existing script with same ID
+    let script = document.getElementById(scriptId) as HTMLScriptElement | null;
+
+    if (script) {
+      // Update existing script if content changed
+      if (script.text !== jsonString) {
+        script.text = jsonString;
+      }
+    } else {
+      // Create new script element
+      script = document.createElement('script');
+      script.type = 'application/ld+json';
+      script.id = scriptId;
+      script.text = jsonString;
+      document.head.appendChild(script);
     }
 
-    // Create script element
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.id = scriptId;
-    script.text = jsonString;
-
-    document.head.appendChild(script);
-    scriptRef.current = script;
-
-    return () => {
-      // Only remove if this script still exists and matches what we created
-      if (scriptRef.current && document.head.contains(scriptRef.current)) {
-        scriptRef.current.remove();
-      }
-    };
+    // No cleanup - scripts persist until page navigation
+    // This prevents race conditions with React's concurrent rendering
   }, [jsonString, data]);
 
   return null;
