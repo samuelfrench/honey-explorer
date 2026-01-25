@@ -25,7 +25,7 @@ const MAX_EVENTS_PER_QUERY = 10;
 const SEARCH_DELAY_MS = 2000; // Rate limiting between searches
 
 // Valid enum values (must match backend)
-const VALID_EVENT_TYPES = new Set(['FESTIVAL', 'MARKET', 'CLASS', 'TASTING', 'TOUR', 'FAIR']);
+const VALID_EVENT_TYPES = new Set(['FESTIVAL', 'MARKET', 'CLASS', 'TASTING', 'TOUR', 'FAIR', 'EXPO', 'CONFERENCE']);
 
 const US_STATES = new Set([
   'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut',
@@ -210,7 +210,7 @@ Return ONLY a JSON array of events found. Each event must have these exact field
 {
   "name": "Event Name",
   "description": "Brief description (max 500 chars)",
-  "eventType": "FESTIVAL|MARKET|CLASS|TASTING|TOUR|FAIR",
+  "eventType": "FESTIVAL|MARKET|CLASS|TASTING|TOUR|FAIR|EXPO|CONFERENCE",
   "startDate": "YYYY-MM-DD",
   "endDate": "YYYY-MM-DD or null if single day",
   "address": "Full street address or venue name",

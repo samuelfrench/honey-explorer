@@ -9,7 +9,9 @@ public enum EventType {
     CLASS("Class"),
     TASTING("Tasting"),
     TOUR("Tour"),
-    FAIR("Fair");
+    FAIR("Fair"),
+    EXPO("Expo"),
+    CONFERENCE("Conference");
 
     private final String displayName;
 
