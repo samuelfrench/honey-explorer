@@ -298,6 +298,7 @@ export function LocalSourcesPage() {
                           sources={sources}
                           center={userLocation ? [userLocation.lat, userLocation.lng] : undefined}
                           zoom={userLocation ? 10 : 4}
+                          fitToMarkers={!!userLocation}
                         />
                       </div>
                     )}

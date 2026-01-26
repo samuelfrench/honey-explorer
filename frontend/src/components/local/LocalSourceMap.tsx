@@ -9,6 +9,7 @@ interface LocalSourceMapProps {
   sources: LocalSource[];
   center?: [number, number];
   zoom?: number;
+  fitToMarkers?: boolean;
   onMapMove?: (bounds: { north: number; south: number; east: number; west: number }) => void;
 }
 
@@ -30,6 +31,7 @@ export function LocalSourceMap({
   sources,
   center = [39.8283, -98.5795], // Center of US
   zoom = 4,
+  fitToMarkers = false,
 }: LocalSourceMapProps) {
   return (
     <MapContainer
@@ -52,7 +54,7 @@ export function LocalSourceMap({
           <SourceMarker key={source.id} source={source} />
         ))}
       </MarkerClusterGroup>
-      {sources.length > 0 && <FitBounds sources={sources} />}
+      {fitToMarkers && sources.length > 0 && <FitBounds sources={sources} />}
     </MapContainer>
   );
 }
