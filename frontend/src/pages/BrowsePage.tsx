@@ -16,6 +16,10 @@ export function BrowsePage() {
   const origins = searchParams.getAll('origin');
   const floralSources = searchParams.getAll('floralSource');
   const types = searchParams.getAll('type');
+  const priceMinParam = searchParams.get('priceMin');
+  const priceMaxParam = searchParams.get('priceMax');
+  const priceMin = priceMinParam ? parseFloat(priceMinParam) : undefined;
+  const priceMax = priceMaxParam ? parseFloat(priceMaxParam) : undefined;
   const page = parseInt(searchParams.get('page') || '0', 10);
   const sort = searchParams.get('sort') || 'name';
 
@@ -80,6 +84,8 @@ export function BrowsePage() {
           origin: origins.length > 0 ? origins : undefined,
           floralSource: floralSources.length > 0 ? floralSources : undefined,
           type: types.length > 0 ? types : undefined,
+          priceMin,
+          priceMax,
           page,
           size: 24,
           sort,
@@ -97,14 +103,14 @@ export function BrowsePage() {
     };
 
     fetchHoneys();
-  }, [search, origins.join(','), floralSources.join(','), types.join(','), page, sort]);
+  }, [search, origins.join(','), floralSources.join(','), types.join(','), priceMin, priceMax, page, sort]);
 
   const handleClearAll = () => {
     setSearchInput('');
     setSearchParams(new URLSearchParams());
   };
 
-  const hasActiveFilters = search || origins.length > 0 || floralSources.length > 0 || types.length > 0;
+  const hasActiveFilters = search || origins.length > 0 || floralSources.length > 0 || types.length > 0 || priceMin !== undefined || priceMax !== undefined;
 
   // Dynamic SEO based on filters
   const seoTitle = useMemo(() => {
@@ -190,9 +196,15 @@ export function BrowsePage() {
                   selectedOrigins={origins}
                   selectedFloralSources={floralSources}
                   selectedTypes={types}
+                  priceMin={priceMin}
+                  priceMax={priceMax}
                   onOriginChange={(values) => updateParams({ origin: values })}
                   onFloralSourceChange={(values) => updateParams({ floralSource: values })}
                   onTypeChange={(values) => updateParams({ type: values })}
+                  onPriceChange={(min, max) => updateParams({
+                    priceMin: min !== undefined ? String(min) : null,
+                    priceMax: max !== undefined ? String(max) : null
+                  })}
                   onClearAll={handleClearAll}
                 />
               </div>
@@ -218,9 +230,15 @@ export function BrowsePage() {
                       selectedOrigins={origins}
                       selectedFloralSources={floralSources}
                       selectedTypes={types}
+                      priceMin={priceMin}
+                      priceMax={priceMax}
                       onOriginChange={(values) => updateParams({ origin: values })}
                       onFloralSourceChange={(values) => updateParams({ floralSource: values })}
                       onTypeChange={(values) => updateParams({ type: values })}
+                      onPriceChange={(min, max) => updateParams({
+                        priceMin: min !== undefined ? String(min) : null,
+                        priceMax: max !== undefined ? String(max) : null
+                      })}
                       onClearAll={handleClearAll}
                     />
                     <div className="mt-4">

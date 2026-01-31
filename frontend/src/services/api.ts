@@ -85,6 +85,8 @@ export interface BrowseParams {
   origin?: string[];
   floralSource?: string[];
   type?: string[];
+  priceMin?: number;
+  priceMax?: number;
   page?: number;
   size?: number;
   sort?: string;
@@ -98,6 +100,8 @@ export const honeyApi = {
     if (params.origin?.length) queryParams.origin = params.origin;
     if (params.floralSource?.length) queryParams.floralSource = params.floralSource;
     if (params.type?.length) queryParams.type = params.type;
+    if (params.priceMin !== undefined) queryParams.priceMin = params.priceMin;
+    if (params.priceMax !== undefined) queryParams.priceMax = params.priceMax;
     queryParams.page = params.page ?? 0;
     queryParams.size = params.size ?? 24;
     queryParams.sort = params.sort ?? 'name';
@@ -115,6 +119,9 @@ export const honeyApi = {
 
   getCount: () =>
     api.get<number>('/honeys/count'),
+
+  getSimilar: (slug: string, limit = 4) =>
+    api.get<Honey[]>(`/honeys/${slug}/similar`, { params: { limit } }),
 };
 
 export const filterApi = {

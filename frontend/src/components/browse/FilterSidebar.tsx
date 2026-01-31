@@ -8,9 +8,12 @@ interface FilterSidebarProps {
   selectedOrigins: string[];
   selectedFloralSources: string[];
   selectedTypes: string[];
+  priceMin?: number;
+  priceMax?: number;
   onOriginChange: (origins: string[]) => void;
   onFloralSourceChange: (sources: string[]) => void;
   onTypeChange: (types: string[]) => void;
+  onPriceChange: (min: number | undefined, max: number | undefined) => void;
   onClearAll: () => void;
 }
 
@@ -73,15 +76,20 @@ export function FilterSidebar({
   selectedOrigins,
   selectedFloralSources,
   selectedTypes,
+  priceMin,
+  priceMax,
   onOriginChange,
   onFloralSourceChange,
   onTypeChange,
+  onPriceChange,
   onClearAll,
 }: FilterSidebarProps) {
   const hasActiveFilters =
     selectedOrigins.length > 0 ||
     selectedFloralSources.length > 0 ||
-    selectedTypes.length > 0;
+    selectedTypes.length > 0 ||
+    priceMin !== undefined ||
+    priceMax !== undefined;
 
   if (!filterOptions) {
     return (
@@ -178,6 +186,52 @@ export function FilterSidebar({
         selected={selectedTypes}
         onChange={onTypeChange}
       />
+
+      {/* Price Range */}
+      <div className="border-t border-comb-100 pt-4 mt-4">
+        <div className="font-semibold text-comb-800 mb-3">Price Range</div>
+        <div className="flex items-center gap-2">
+          <div className="relative flex-1">
+            <span className="absolute left-2 top-1/2 -translate-y-1/2 text-comb-400 text-sm">$</span>
+            <input
+              type="number"
+              placeholder="Min"
+              value={priceMin ?? ''}
+              onChange={(e) => onPriceChange(
+                e.target.value ? parseFloat(e.target.value) : undefined,
+                priceMax
+              )}
+              className="w-full pl-6 pr-2 py-2 text-sm border border-comb-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-honey-400"
+              min="0"
+              step="1"
+            />
+          </div>
+          <span className="text-comb-400">-</span>
+          <div className="relative flex-1">
+            <span className="absolute left-2 top-1/2 -translate-y-1/2 text-comb-400 text-sm">$</span>
+            <input
+              type="number"
+              placeholder="Max"
+              value={priceMax ?? ''}
+              onChange={(e) => onPriceChange(
+                priceMin,
+                e.target.value ? parseFloat(e.target.value) : undefined
+              )}
+              className="w-full pl-6 pr-2 py-2 text-sm border border-comb-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-honey-400"
+              min="0"
+              step="1"
+            />
+          </div>
+        </div>
+        {(priceMin !== undefined || priceMax !== undefined) && (
+          <button
+            onClick={() => onPriceChange(undefined, undefined)}
+            className="text-xs text-honey-600 hover:text-honey-700 mt-2"
+          >
+            Clear price filter
+          </button>
+        )}
+      </div>
     </div>
   );
 }

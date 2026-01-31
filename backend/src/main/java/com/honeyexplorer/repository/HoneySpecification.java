@@ -7,6 +7,7 @@ import com.honeyexplorer.entity.enums.HoneyType;
 import jakarta.persistence.criteria.Predicate;
 import org.springframework.data.jpa.domain.Specification;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,6 +30,28 @@ public class HoneySpecification {
             List<String> origins,
             List<String> floralSources,
             List<String> types
+    ) {
+        return withFilters(search, origins, floralSources, types, null, null);
+    }
+
+    /**
+     * Build a specification for filtering honeys with price range.
+     *
+     * @param search Text search on name, description, brand
+     * @param origins List of origin values to filter by
+     * @param floralSources List of floral source values to filter by
+     * @param types List of honey type values to filter by
+     * @param priceMin Minimum price filter
+     * @param priceMax Maximum price filter
+     * @return Specification for filtering
+     */
+    public static Specification<Honey> withFilters(
+            String search,
+            List<String> origins,
+            List<String> floralSources,
+            List<String> types,
+            BigDecimal priceMin,
+            BigDecimal priceMax
     ) {
         return (root, query, cb) -> {
             List<Predicate> predicates = new ArrayList<>();
@@ -64,6 +87,14 @@ public class HoneySpecification {
                         .map(HoneyType::valueOf)
                         .toList();
                 predicates.add(root.get("type").in(typeEnums));
+            }
+
+            // Price range filter
+            if (priceMin != null) {
+                predicates.add(cb.greaterThanOrEqualTo(root.get("priceMin"), priceMin));
+            }
+            if (priceMax != null) {
+                predicates.add(cb.lessThanOrEqualTo(root.get("priceMax"), priceMax));
             }
 
             return cb.and(predicates.toArray(new Predicate[0]));

@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Droplet, MapPin, ArrowRight } from 'lucide-react';
+import { Droplet, MapPin, ArrowRight, Sparkles } from 'lucide-react';
 import { Container, Section } from '../components/layout';
 import { Button, SkeletonCard } from '../components/ui';
 import { HoneyCard } from '../components/honey';
 import { EventsCarousel } from '../components/events';
+import { SeasonalPicks, ProducerSpotlight } from '../components/home';
+import { HoneyQuiz } from '../components/quiz';
 import { SEO, JsonLd, createWebSiteSchema, createOrganizationSchema } from '../components/seo';
 import { honeyApi, type Honey } from '../services/api';
 
@@ -12,6 +14,7 @@ export function HomePage() {
   const [featuredHoneys, setFeaturedHoneys] = useState<Honey[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [showQuiz, setShowQuiz] = useState(false);
 
   useEffect(() => {
     const fetchFeatured = async () => {
@@ -72,8 +75,33 @@ export function HomePage() {
         </Container>
       </Section>
 
+      {/* Quiz Section */}
+      <Section padding="lg" background="white">
+        <Container size="md">
+          {!showQuiz ? (
+            <div className="text-center">
+              <div className="w-16 h-16 bg-honey-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Sparkles className="w-8 h-8 text-honey-600" />
+              </div>
+              <h2 className="font-display text-3xl md:text-4xl font-bold text-comb-900 mb-3">
+                Find Your Perfect Honey
+              </h2>
+              <p className="text-comb-600 text-lg mb-6 max-w-xl mx-auto">
+                Answer a few quick questions and we'll recommend the ideal honey varieties for your taste and needs.
+              </p>
+              <Button variant="primary" size="lg" onClick={() => setShowQuiz(true)}>
+                <Sparkles className="w-5 h-5 mr-2" />
+                Take the Quiz
+              </Button>
+            </div>
+          ) : (
+            <HoneyQuiz onClose={() => setShowQuiz(false)} />
+          )}
+        </Container>
+      </Section>
+
       {/* Featured Honeys Section */}
-      <Section padding="lg">
+      <Section padding="lg" background="cream">
         <Container>
           <div className="text-center mb-10">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-comb-900 mb-3">
@@ -117,12 +145,18 @@ export function HomePage() {
         </Container>
       </Section>
 
+      {/* Seasonal Picks Section */}
+      <SeasonalPicks />
+
       {/* Events Carousel Section */}
       <Section padding="lg" background="white">
         <Container>
           <EventsCarousel />
         </Container>
       </Section>
+
+      {/* Producer Spotlight Section */}
+      <ProducerSpotlight />
 
       {/* Stats Section */}
       <Section padding="md" background="honey">

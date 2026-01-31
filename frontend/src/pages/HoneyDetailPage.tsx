@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 import { Container, Section } from '../components/layout';
 import { Badge, Button, Spinner } from '../components/ui';
+import { SimilarHoneys, RecipeSuggestions } from '../components/honey';
 import { SEO, JsonLd, createProductSchema } from '../components/seo';
 import { honeyApi, type Honey } from '../services/api';
 
@@ -224,6 +225,15 @@ export function HoneyDetailPage() {
               )}
             </div>
           </div>
+
+          {/* Recipe Suggestions */}
+          <RecipeSuggestions
+            floralSource={honey.floralSource}
+            flavorProfiles={honey.flavorProfiles}
+          />
+
+          {/* Similar Honeys */}
+          <SimilarHoneys slug={honey.slug} />
         </Container>
       </Section>
     </div>

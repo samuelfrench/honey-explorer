@@ -8,6 +8,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;
 
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
+
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -43,4 +47,16 @@ public interface HoneyRepository extends JpaRepository<Honey, UUID>, JpaSpecific
      * Find all featured honeys for homepage display.
      */
     List<Honey> findByFeaturedTrue();
+
+    /**
+     * Find similar honeys based on floral source and flavor profiles.
+     * Orders by matching floral source first, then by name.
+     */
+    @Query("SELECT h FROM Honey h WHERE h.id != :excludeId AND " +
+           "(h.floralSource = :floralSource OR h.flavorProfiles LIKE %:flavorProfile%) " +
+           "ORDER BY CASE WHEN h.floralSource = :floralSource THEN 0 ELSE 1 END, h.name")
+    List<Honey> findSimilar(@Param("excludeId") UUID excludeId,
+                            @Param("floralSource") FloralSource floralSource,
+                            @Param("flavorProfile") String flavorProfile,
+                            Pageable pageable);
 }
